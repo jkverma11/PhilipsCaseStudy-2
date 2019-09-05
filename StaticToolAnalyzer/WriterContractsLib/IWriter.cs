@@ -9,7 +9,7 @@ namespace WriterContractsLib
     public interface IWriter
     {
         #region Method
-        void Write(List<DataModelsLib.DataModel> dataModels);
+        bool Write(List<DataModelsLib.DataModel> dataModels);
         #endregion
     }
 }

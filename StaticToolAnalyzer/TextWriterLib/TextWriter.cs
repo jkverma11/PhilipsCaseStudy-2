@@ -27,44 +27,55 @@ namespace TextWriterLib
         #endregion
 
         #region Method
-        public void Write(List<DataModel> dataModels)
+        public bool Write(List<DataModel> dataModels)
         {
+            bool successStatus = false;
             List<string> text = new List<string>();
             StringBuilder primaryStringBuilder = new StringBuilder();
             StringBuilder secondaryStringBuilder = new StringBuilder();
-            if (!File.Exists(FilePath))
+            try
             {
-                File.CreateText(FilePath).Close();
-                
-            }
-
-            if (new FileInfo(FilePath).Length == 0)
-            {
-                if (dataModels.Count > 0) { 
-                   Type type = dataModels[0].GetType();
-                   System.Reflection.PropertyInfo[] properties = type.GetProperties();
-                   foreach (var property in properties)
-                   {
-                       secondaryStringBuilder.Append(property.Name + "\t");
-                   }
-                   primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
-                   secondaryStringBuilder.Clear();
-                }
-            }
-            
-            foreach (var dataModel in dataModels)
-            {
-                Type type = dataModel.GetType();
-                System.Reflection.PropertyInfo[] properties = type.GetProperties();
-                foreach(var property in properties)
+                if (!File.Exists(FilePath))
                 {
-                    secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
-                }
-                primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
-                secondaryStringBuilder.Clear();
-            }
-            File.AppendAllText(FilePath, primaryStringBuilder.ToString());
+                    File.CreateText(FilePath).Close();
 
+                }
+
+                if (new FileInfo(FilePath).Length == 0)
+                {
+                    if (dataModels.Count > 0)
+                    {
+                        Type type = dataModels[0].GetType();
+                        System.Reflection.PropertyInfo[] properties = type.GetProperties();
+                        foreach (var property in properties)
+                        {
+                            secondaryStringBuilder.Append(property.Name + "\t");
+                        }
+                        primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
+                        secondaryStringBuilder.Clear();
+                    }
+                }
+
+                foreach (var dataModel in dataModels)
+                {
+                    Type type = dataModel.GetType();
+                    System.Reflection.PropertyInfo[] properties = type.GetProperties();
+                    foreach (var property in properties)
+                    {
+                        secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
+                    }
+                    primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
+                    secondaryStringBuilder.Clear();
+                }
+                File.AppendAllText(FilePath, primaryStringBuilder.ToString());
+                successStatus = true;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+            }
+
+            return successStatus;
         }
         #endregion
     }

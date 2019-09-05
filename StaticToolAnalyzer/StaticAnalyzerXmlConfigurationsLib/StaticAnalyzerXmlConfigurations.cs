@@ -38,9 +38,9 @@ namespace StaticAnalyzerXmlConfigurationsLib
 
         public string GetUserCodeSolutionPath() => XmlParser("Process", "SolutionPath");
 
-        public string GetAnalyzerRulesFilePath(string toolName) => XmlParser("File", toolName);
+        public string GetAnalyzerRulesFilePath(string toolName) => XmlParser(toolName, "RuleFilePath");
 
-        public string GetAnalyzerOutputFilePath(string toolName) => XmlParser("File", toolName);
+        public string GetAnalyzerOutputFilePath(string toolName) => XmlParser(toolName, "OutputFilePath");
 
         #endregion
 

@@ -54,13 +54,13 @@
       <Project>{cf453928-4aee-47f7-9418-061c3e6022ea}</Project>
       <Name>DataModelsLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FxCopAnalyzerLib\FxCopAnalyzerLib.csproj">
+      <Project>{e689bba1-da7b-4d0b-903a-2997f0bd1d34}</Project>
+      <Name>FxCopAnalyzerLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FxCopReaderLib\FxCopReaderLib.csproj">
       <Project>{bb82de03-f4b2-4b07-94c7-ee097b6cd63b}</Project>
       <Name>FxCopReaderLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NDependReaderLib\NDependReaderLib.csproj">
-      <Project>{223977d0-b052-42c4-8b61-d1a577a46787}</Project>
-      <Name>NDependReaderLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\ReportReaderContractsLib\ReportReaderContractsLib.csproj">
       <Project>{7f12de8d-d702-4eb1-9286-a66c2efffec3}</Project>
@@ -69,6 +69,22 @@
     <ProjectReference Include="..\StaticAnalyzerConfigurationsContractsLib\StaticAnalyzerConfigurationsContractsLib.csproj">
       <Project>{af425cad-7331-48c2-ad00-4aed870c2366}</Project>
       <Name>StaticAnalyzerConfigurationsContractsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticAnalyzerContractsLib\StaticAnalyzerContractsLib.csproj">
+      <Project>{565e5a7b-9beb-4538-bdac-d00e6ababd8d}</Project>
+      <Name>StaticAnalyzerContractsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticAnalyzerUtilitiesLib\StaticAnalyzerUtilitiesLib.csproj">
+      <Project>{e6ec59ce-e098-45ed-83ce-d20d3f5a1fa2}</Project>
+      <Name>StaticAnalyzerUtilitiesLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticAnalyzerXmlConfigurationsLib\StaticAnalyzerXmlConfigurationsLib.csproj">
+      <Project>{74f0f4a6-b839-447b-a745-2ce3f9b2c0d9}</Project>
+      <Name>StaticAnalyzerXmlConfigurationsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticToolsProcessorLib\StaticToolsProcessorLib.csproj">
+      <Project>{3f4711c7-92db-42bf-bf48-fc4bb84c7916}</Project>
+      <Name>StaticToolsProcessorLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\TextWriterLib\TextWriterLib.csproj">
       <Project>{2be7eb22-b4a7-440f-b96a-9a845a6caaa5}</Project>
