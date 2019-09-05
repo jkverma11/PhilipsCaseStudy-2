@@ -9,3 +9,14 @@ C:\Users\320050491\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerU
 C:\Users\320050491\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.csprojResolveAssemblyReference.cache
 C:\Users\320050491\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.dll
 C:\Users\320050491\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\FxCopAnalyzerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\FxCopAnalyzerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerConfigurationsContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerConfigurationsContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.csprojResolveAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.pdb

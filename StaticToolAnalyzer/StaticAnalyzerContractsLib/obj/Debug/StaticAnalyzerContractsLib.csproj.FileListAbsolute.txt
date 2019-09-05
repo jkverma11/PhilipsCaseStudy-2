@@ -2,3 +2,8 @@ C:\Users\320050491\StaticToolAnalyzer\StaticAnalyzerContractsLib\bin\Debug\Stati
 C:\Users\320050491\StaticToolAnalyzer\StaticAnalyzerContractsLib\bin\Debug\StaticAnalyzerContractsLib.pdb
 C:\Users\320050491\StaticToolAnalyzer\StaticAnalyzerContractsLib\obj\Debug\StaticAnalyzerContractsLib.dll
 C:\Users\320050491\StaticToolAnalyzer\StaticAnalyzerContractsLib\obj\Debug\StaticAnalyzerContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerContractsLib\bin\Debug\StaticAnalyzerContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerContractsLib\bin\Debug\StaticAnalyzerContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerContractsLib\obj\Debug\StaticAnalyzerContractsLib.csprojResolveAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerContractsLib\obj\Debug\StaticAnalyzerContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerContractsLib\obj\Debug\StaticAnalyzerContractsLib.pdb
