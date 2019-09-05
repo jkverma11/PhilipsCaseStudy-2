@@ -1,0 +1,16 @@
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\bin\Debug\WriterContractsLib.dll
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\bin\Debug\WriterContractsLib.pdb
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\bin\Debug\DataModelsLib.dll
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\bin\Debug\DataModelsLib.pdb
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.csprojAssemblyReference.cache
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.csproj.CoreCompileInputs.cache
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.csproj.CopyComplete
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.dll
+C:\Users\320067256\source\repos\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\WriterContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\WriterContractsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\DataModelsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\DataModelsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.csprojResolveAssemblyReference.cache
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.pdb

@@ -1,0 +1,5 @@
+StaticAnalyzerTool	ErrorMsg	ErrorType	ErrorCertainity	FilePath	FileName	LineNumber	ErrorCount	
+			12			0	12	
+			12			0	12	
+			12			0	12	
+			12			0	12	

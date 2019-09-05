@@ -1,0 +1,4 @@
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerHelperLib\bin\Debug\StaticAnalyzerHelperLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerHelperLib\bin\Debug\StaticAnalyzerHelperLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerHelperLib\obj\Debug\StaticAnalyzerHelperLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerHelperLib\obj\Debug\StaticAnalyzerHelperLib.pdb
