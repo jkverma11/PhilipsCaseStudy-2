@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyzerConfigurationsContractsLib", "StaticAnalyzerConfigurationsContractsLib\StaticAnalyzerConfigurationsContractsLib.csproj", "{AF425CAD-7331-48C2-AD00-4AED870C2366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyzerContractsLib", "StaticAnalyzerContractsLib\StaticAnalyzerContractsLib.csproj", "{565E5A7B-9BEB-4538-BDAC-D00E6ABABD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCopAnalyzerLib", "FxCopAnalyzerLib\FxCopAnalyzerLib.csproj", "{E689BBA1-DA7B-4D0B-903A-2997F0BD1D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyzerUtilitiesLib", "StaticAnalyzerUtilitiesLib\StaticAnalyzerUtilitiesLib.csproj", "{E6EC59CE-E098-45ED-83CE-D20D3F5A1FA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF425CAD-7331-48C2-AD00-4AED870C2366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF425CAD-7331-48C2-AD00-4AED870C2366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF425CAD-7331-48C2-AD00-4AED870C2366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF425CAD-7331-48C2-AD00-4AED870C2366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565E5A7B-9BEB-4538-BDAC-D00E6ABABD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565E5A7B-9BEB-4538-BDAC-D00E6ABABD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565E5A7B-9BEB-4538-BDAC-D00E6ABABD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565E5A7B-9BEB-4538-BDAC-D00E6ABABD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E689BBA1-DA7B-4D0B-903A-2997F0BD1D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E689BBA1-DA7B-4D0B-903A-2997F0BD1D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E689BBA1-DA7B-4D0B-903A-2997F0BD1D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E689BBA1-DA7B-4D0B-903A-2997F0BD1D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EC59CE-E098-45ED-83CE-D20D3F5A1FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EC59CE-E098-45ED-83CE-D20D3F5A1FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EC59CE-E098-45ED-83CE-D20D3F5A1FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EC59CE-E098-45ED-83CE-D20D3F5A1FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
