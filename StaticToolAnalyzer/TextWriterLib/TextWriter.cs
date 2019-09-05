@@ -12,7 +12,7 @@ namespace TextWriterLib
     public class TextWriter : WriterContractsLib.IWriter
     {
         #region ConstantFields
-        private const string filePath = "AnalyzerReport.txt";
+        private const string Path = "AnalyzerReport.txt";
         #endregion
 
         #region Properties
@@ -22,7 +22,7 @@ namespace TextWriterLib
         #region Constructor
         public TextWriter()
         {
-            FilePath = filePath;
+            FilePath = Path;
         }
         #endregion
 
@@ -30,39 +30,40 @@ namespace TextWriterLib
         public void Write(List<DataModel> dataModels)
         {
             List<string> text = new List<string>();
-
-            StringBuilder strbuild = new StringBuilder();
+            StringBuilder primaryStringBuilder = new StringBuilder();
+            StringBuilder secondaryStringBuilder = new StringBuilder();
             if (!File.Exists(FilePath))
-               File.CreateText(FilePath);
+            {
+                File.CreateText(FilePath).Close();
+                
+            }
 
             if (new FileInfo(FilePath).Length == 0)
             {
-                StringBuilder tempStrBuild = new StringBuilder(); 
                 if (dataModels.Count > 0) { 
                    Type type = dataModels[0].GetType();
-                   System.Reflection.PropertyInfo[] props = type.GetProperties();
-                   foreach (var pr in props)
-                       tempStrBuild.Append(pr.Name +"\t");
-                   
-                   strbuild.AppendLine(tempStrBuild.ToString());
-                    
+                   System.Reflection.PropertyInfo[] properties = type.GetProperties();
+                   foreach (var property in properties)
+                   {
+                       secondaryStringBuilder.Append(property.Name + "\t");
+                   }
+                   primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
+                   secondaryStringBuilder.Clear();
                 }
-
             }
             
-            foreach (var properties in dataModels)
+            foreach (var dataModel in dataModels)
             {
-                StringBuilder tempStrBuild = new StringBuilder();
-                Type type = properties.GetType();
-                System.Reflection.PropertyInfo[] props = type.GetProperties();
-                foreach(var pr in props)
+                Type type = dataModel.GetType();
+                System.Reflection.PropertyInfo[] properties = type.GetProperties();
+                foreach(var property in properties)
                 {
-                    tempStrBuild.Append(pr.GetValue(properties) + "\t");
+                    secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
                 }
-                strbuild.AppendLine(tempStrBuild.ToString());
-
+                primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
+                secondaryStringBuilder.Clear();
             }
-            File.AppendAllText(FilePath, strbuild.ToString());
+            File.AppendAllText(FilePath, primaryStringBuilder.ToString());
 
         }
         #endregion

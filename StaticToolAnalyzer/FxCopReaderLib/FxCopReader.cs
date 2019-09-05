@@ -13,40 +13,46 @@ namespace FxCopReaderLib
     public class FxCopReader:ReportReaderContractsLib.IReader
     {
         #region Fields
-        private IStaticAnalyzerConfigurations _readConfiguration;
-        List<DataModelsLib.DataModel> dataModels = new List<DataModelsLib.DataModel>();
+        private readonly IStaticAnalyzerConfigurations _readConfiguration;
+        private readonly List<DataModelsLib.DataModel> _dataModels = new List<DataModelsLib.DataModel>();
         #endregion
 
         #region Constructor
-        public FxCopReader(IStaticAnalyzerConfigurations ReadConfiguration)
+        public FxCopReader(IStaticAnalyzerConfigurations readConfiguration)
         {
-            this._readConfiguration = ReadConfiguration;
+            this._readConfiguration = readConfiguration;
         }
         #endregion
 
         #region Method
         public List<DataModelsLib.DataModel> Read()
         {
-            var xmlDoc = XElement.Load(_readConfiguration.GetAnalyzerOutputFilePath("FxCop"));
-            var messages = from element in xmlDoc.Descendants()
-                           where element.Name == "Issue"
-                           select element;
-            
-            
-            foreach (var msg in messages)
+            try
             {
-                DataModel DataModelTemp = new DataModel();
-                DataModelTemp.ErrorMsg=msg.Value;
-                DataModelTemp.ErrorType = msg.Attribute("Name")?.ToString();
-                DataModelTemp.ErrorCertainity=int.Parse(msg.Attribute("Certainty")?.ToString());
-                DataModelTemp.FilePath = msg.Attribute("Path")?.ToString();
-                DataModelTemp.FileName = msg.Attribute("File")?.ToString();
-                DataModelTemp.LineNumber = int.Parse(msg.Attribute("Line")?.ToString());
-                DataModelTemp.StaticAnalyzerTool = "FxCop";
-                dataModels.Add(DataModelTemp);
+                var xmlDoc = XElement.Load(_readConfiguration.GetAnalyzerOutputFilePath("FxCop"));
+                var messages = from element in xmlDoc.Descendants()
+                    where element.Name == "Issue"
+                    select element;
+                foreach (var message in messages)
+                {
+                    var dataModelTemp = new DataModel
+                    {
+                        ErrorMsg = message.Value,
+                        ErrorType = message.Attribute("Name")?.ToString(),
+                        ErrorCertainty = message.Attribute("Certainty")?.ToString(),
+                        FilePath = message.Attribute("Path")?.ToString(),
+                        FileName = message.Attribute("File")?.ToString(),
+                        LineNumber = message.Attribute("Line")?.ToString(),
+                        StaticAnalyzerTool = "FxCop"
+                    };
+                    _dataModels.Add(dataModelTemp);
+                }
             }
-
-            return dataModels;
+            catch(Exception exception)
+            {
+                Console.WriteLine(exception);
+            }
+            return _dataModels;
         }
         #endregion
 

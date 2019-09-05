@@ -14,3 +14,10 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.csprojResolveAssemblyReference.cache
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.dll
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\WriterContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\WriterContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\bin\Debug\DataModelsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.csprojResolveAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\WriterContractsLib\obj\Debug\WriterContractsLib.pdb

@@ -15,15 +15,10 @@ namespace ConsoleApp1
         {
             TextWriter txt = new TextWriter();
             List<DataModel> lst = new List<DataModel>();
-            var dta = new DataModel();
-            dta.ErrorCertainity = 12;
-            dta.ErrorCount = 12;
+            var dta = new DataModel {ErrorCertainty = "12", ErrorCount = "12"};
             lst.Add(dta);
             txt.Write(lst);
             txt.Write(lst);
-
-            
-        }
-        
+        }      
     }
 }
