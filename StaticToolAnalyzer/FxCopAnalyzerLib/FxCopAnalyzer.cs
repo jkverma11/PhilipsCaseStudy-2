@@ -12,19 +12,26 @@ namespace FxCopAnalyzerLib
 {
     public class FxCopAnalyzer : IStaticAnalyzers
     {
-        private IStaticAnalyzerConfigurations _configurationsRef;
-        private string _fxCopExePath;
-        private string _userCodeExePath;
-        private string _fxCopRulesFilePath;
-        private string _fxCopOutputFilePath;
-        public FxCopAnalyzer(IStaticAnalyzerConfigurations configurationsRef)
+        #region Private Fields
+        private readonly string _fxCopExePath;
+        private readonly string _userCodeExePath;
+        private readonly string _fxCopRulesFilePath;
+        private readonly string _fxCopOutputFilePath;
+        #endregion
+
+        #region Initialyzer
+        public FxCopAnalyzer(IStaticAnalyzerConfigurations configurations)
         {
-            _configurationsRef = configurationsRef;
-            _fxCopExePath = _configurationsRef.GetAnalyzerExePath("FxCop");
-            _userCodeExePath = _configurationsRef.GetUserCodeExePath();
-            _fxCopRulesFilePath = _configurationsRef.GetAnalyzerRulesFilePath("FxCop");
-            _fxCopOutputFilePath = _configurationsRef.GetAnalyzerOutputFilePath("FxCop");
+            var configurationsRef = configurations;
+            _fxCopExePath = configurationsRef.GetAnalyzerExePath("FxCop");
+            _userCodeExePath = configurationsRef.GetUserCodeExePath();
+            _fxCopRulesFilePath = configurationsRef.GetAnalyzerRulesFilePath("FxCop");
+            _fxCopOutputFilePath = configurationsRef.GetAnalyzerOutputFilePath("FxCop");
         }
+
+        #endregion
+
+        #region Public Methods
         bool IStaticAnalyzers.ProcessInput()
         {
             bool successStatus = StaticAnalyzerUtilities.ChangeSolutionPath(_fxCopRulesFilePath, _userCodeExePath, "Target", "Name");
@@ -39,5 +46,9 @@ namespace FxCopAnalyzerLib
                 StaticAnalyzerUtilities.RunAnalyzerProcess(arguments, _fxCopExePath, ProcessWindowStyle.Hidden);
             return successStatus;
         }
+
+
+        #endregion
+
     }
 }

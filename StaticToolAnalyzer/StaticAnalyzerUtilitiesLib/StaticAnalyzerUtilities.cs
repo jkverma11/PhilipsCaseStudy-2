@@ -10,15 +10,16 @@ namespace StaticAnalyzerUtilitiesLib
 {
     public static class StaticAnalyzerUtilities
     {
+        #region Method RunAnalyzerProcess
         public static bool RunAnalyzerProcess(string arguments, string analyzerExePath, ProcessWindowStyle windowStyle)
         {
             bool successStatus = false;
             try
             {
-                Process proc = new Process();
-                proc.StartInfo.WindowStyle = windowStyle;
-                proc.StartInfo.Arguments = arguments;
-                proc.StartInfo.FileName = analyzerExePath;
+                Process proc = new Process
+                {
+                    StartInfo = {WindowStyle = windowStyle, Arguments = arguments, FileName = analyzerExePath}
+                };
                 proc.Start();
                 proc.WaitForExit();
                 successStatus = true;
@@ -31,7 +32,9 @@ namespace StaticAnalyzerUtilitiesLib
 
             return successStatus;
         }
+        #endregion
 
+        #region Method ChangeSolutionPath
         public static bool ChangeSolutionPath(string analyzerRuleFilePath, string userCodePath, string ElementName, string AttributeName)
         {
             bool successStatus = false;
@@ -54,5 +57,6 @@ namespace StaticAnalyzerUtilitiesLib
             }
             return successStatus;
         }
+        #endregion
     }
 }

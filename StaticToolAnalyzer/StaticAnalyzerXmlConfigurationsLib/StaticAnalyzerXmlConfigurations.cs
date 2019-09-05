@@ -48,7 +48,7 @@ namespace StaticAnalyzerXmlConfigurationsLib
 
         private string XmlParser(string tag, string value)
         {
-            string returnString = String.Empty;
+            string returnString = string.Empty;
             try
             {
                 var xmlDoc = XElement.Load(FileName);

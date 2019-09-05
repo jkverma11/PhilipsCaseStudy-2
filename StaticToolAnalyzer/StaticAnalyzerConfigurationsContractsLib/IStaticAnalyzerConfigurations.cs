@@ -6,13 +6,20 @@ using System.Threading.Tasks;
 
 namespace StaticAnalyzerConfigurationsContractsLib
 {
+    
+
     public interface IStaticAnalyzerConfigurations
     {
-        string GetAnalyzerExePath( string toolName );
+        #region public Methods
+        string GetAnalyzerExePath(string toolName);
         string GetUserCodeExePath();
         string GetUserCodeSolutionPath();
         string GetAnalyzerRulesFilePath(string toolName);
         string GetAnalyzerOutputFilePath(string toolName);
+        #endregion
     }
+
+
+
 
 }
