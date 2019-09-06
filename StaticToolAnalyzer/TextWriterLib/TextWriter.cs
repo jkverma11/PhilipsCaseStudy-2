@@ -12,17 +12,16 @@ namespace TextWriterLib
     public class TextWriter : WriterContractsLib.IWriter
     {
         #region ConstantFields
-        private const string Path = "AnalyzerReport.txt";
+        private readonly string _path = "AnalyzerReport.txt";
         #endregion
-
-        #region Properties
-        public string FilePath { get; set; }
-        #endregion
-
+        
         #region Constructor
-        public TextWriter()
+        public TextWriter(string outPutFilePath)
         {
-            FilePath = Path;
+            if (outPutFilePath != null)
+            {
+                _path = outPutFilePath;
+            }
         }
         #endregion
 
@@ -35,13 +34,13 @@ namespace TextWriterLib
             StringBuilder secondaryStringBuilder = new StringBuilder();
             try
             {
-                if (!File.Exists(FilePath))
+                if (!File.Exists(_path))
                 {
-                    File.CreateText(FilePath).Close();
+                    File.CreateText(_path).Close();
 
                 }
 
-                if (new FileInfo(FilePath).Length == 0)
+                if (new FileInfo(_path).Length == 0)
                 {
                     if (dataModels.Count > 0)
                     {
@@ -67,7 +66,7 @@ namespace TextWriterLib
                     primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
                     secondaryStringBuilder.Clear();
                 }
-                File.AppendAllText(FilePath, primaryStringBuilder.ToString());
+                File.AppendAllText(_path, primaryStringBuilder.ToString());
                 successStatus = true;
             }
             catch (Exception exception)

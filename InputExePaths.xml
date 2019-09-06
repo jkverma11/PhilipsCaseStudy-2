@@ -1,6 +1,6 @@
 <Entry>
 	<InputCodePaths>
-		<Process Name ="ExePath" Path ="C:\Users\320050765\ChangesSaved\CaseStudy1-brancth_patch1\CaseStudy1-brancth_patch1\AlertSystemServer\AlertSystemServer\bin\Debug\AlertSystemServer.exe"/>
+		<Process Name ="ExePath" Path ="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool\bin\Debug\StaticAnalyzerTool.exe"/>
 		<Process Name ="SolutionPath" Path ="C:\Users\320050765\ChangesSaved\CaseStudy1-brancth_patch1\CaseStudy1-brancth_patch1\AlertSystemServer\AlertSystemServer.sln"/>
 	</InputCodePaths>
 	<Tools>

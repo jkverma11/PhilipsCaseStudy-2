@@ -12,21 +12,21 @@ namespace StaticAnalyzerXmlConfigurationsLib
     {
         #region ConstantFields
 
-        private const string File = "";
+        private readonly string _xmlFilePath;
 
         #endregion
         #region Properties
 
-        public string FileName { get; set; }
+        
 
 
         #endregion
 
         #region Initializer
 
-        public StaticAnalyzerXmlConfigurations()
+        public StaticAnalyzerXmlConfigurations(string xmlFilePath)
         {
-            FileName = File;
+            _xmlFilePath = xmlFilePath;
         }
 
         #endregion
@@ -51,7 +51,7 @@ namespace StaticAnalyzerXmlConfigurationsLib
             string returnString = string.Empty;
             try
             {
-                var xmlDoc = XElement.Load(FileName);
+                var xmlDoc = XElement.Load(_xmlFilePath);
                 var paths = from element in xmlDoc.Descendants()
                     where element.Name == tag
                     select element;
