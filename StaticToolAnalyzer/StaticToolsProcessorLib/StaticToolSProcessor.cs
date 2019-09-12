@@ -43,7 +43,7 @@ namespace StaticToolsProcessorLib
             foreach (var reportReader in _reportReaders)
             {
                 var dataModelsList = reportReader.Read();
-                successStatus=successStatus && _writer.Write(dataModelsList);
+                successStatus = successStatus && _writer.Write(dataModelsList);
             }
 
             return successStatus;

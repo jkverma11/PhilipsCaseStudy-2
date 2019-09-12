@@ -66,3 +66,13 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\F
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerContractsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerUtilitiesLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticToolsProcessorLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\FxCopAnalyzerLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerUtilitiesLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerXmlConfigurationsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticToolsProcessorLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\FxCopAnalyzerLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerContractsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerUtilitiesLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticAnalyzerXmlConfigurationsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleApp1\bin\Debug\StaticToolsProcessorLib.pdb

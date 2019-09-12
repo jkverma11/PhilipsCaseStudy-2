@@ -1,0 +1,12 @@
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\TextWriterLib.Tests.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\TextWriterLib.Tests.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\DataModelsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\TextWriterLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\WriterContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\DataModelsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\TextWriterLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\bin\Debug\WriterContractsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\obj\Debug\TextWriterLib.Tests.csprojResolveAssemblyReference.cache
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\obj\Debug\TextWriterLib.Tests.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib.Tests\obj\Debug\TextWriterLib.Tests.pdb

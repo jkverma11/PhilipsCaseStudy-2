@@ -32,14 +32,14 @@ namespace FxCopAnalyzerLib
         #endregion
 
         #region Public Methods
-        bool IStaticAnalyzers.ProcessInput()
+       public bool ProcessInput()
         {
             bool successStatus = StaticAnalyzerUtilities.ChangeSolutionPath(_fxCopRulesFilePath, _userCodeExePath, "Target", "Name");
 
             return successStatus;
         }
 
-        bool IStaticAnalyzers.ProcessOutput()
+        public bool ProcessOutput()
         {
             string arguments = @"/p:" + _fxCopRulesFilePath + @" /out:" + _fxCopOutputFilePath;
             bool successStatus =
