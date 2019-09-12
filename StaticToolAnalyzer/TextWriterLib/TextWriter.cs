@@ -32,7 +32,7 @@ namespace TextWriterLib
             StringBuilder primaryStringBuilder = new StringBuilder();
             StringBuilder secondaryStringBuilder = new StringBuilder();
         
-        public bool CheckFileExistence()
+        private bool CheckFileExistence()
         {
             bool Status = false;
             try
@@ -43,6 +43,10 @@ namespace TextWriterLib
                     Status = true;
 
                 }
+
+                if (File.Exists(_path))
+                    Status = true;
+
             }
 
             catch (Exception exception)
@@ -53,7 +57,7 @@ namespace TextWriterLib
             return Status;
         }
 
-        public bool WriteHeader(List<DataModel> dataModels)
+        private bool WriteHeader(List<DataModel> dataModels)
         {
             bool status = false;
 
@@ -80,27 +84,30 @@ namespace TextWriterLib
         {
             int count = 0;
             bool status = false;
-            CheckFileExistence();
-            WriteHeader(dataModels);
-            foreach (var dataModel in dataModels)
+            if (CheckFileExistence())
             {
-                Type type = dataModel.GetType();
-                System.Reflection.PropertyInfo[] properties = type.GetProperties();
-                foreach (var property in properties)
+                WriteHeader(dataModels);
+                foreach (var dataModel in dataModels)
                 {
-                    secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
+                    Type type = dataModel.GetType();
+                    System.Reflection.PropertyInfo[] properties = type.GetProperties();
+                    foreach (var property in properties)
+                    {
+                        secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
+                    }
+                    primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
+                    secondaryStringBuilder.Clear();
+                    count++;
                 }
-                primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
-                secondaryStringBuilder.Clear();
-                count++;
+
+                File.AppendAllText(_path, primaryStringBuilder.ToString());
+                primaryStringBuilder.Clear();
+                if (count == dataModels.Count)
+                    status = true;
+                
             }
-
-            File.AppendAllText(_path, primaryStringBuilder.ToString());
-            if (count == dataModels.Count)
-                status = true;
-
             return status;
-            
+
         }
             
         #endregion

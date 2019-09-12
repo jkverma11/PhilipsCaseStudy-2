@@ -37,6 +37,9 @@ namespace ConsoleApp1
             analyzers.Add(fxCopAnalyzer);
             readers.Add(fxCopReader);
             readers.Add(fxCopReader);
+            readers.Add(fxCopReader);
+
+
             var manager = new StaticToolsProcessor(analyzers, readers, textWriter);
 
             manager.Process();
