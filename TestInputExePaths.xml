@@ -1,0 +1,16 @@
+<Entry>
+	<InputCodePaths>
+		<Process Name ="ExePath" Path ="C:\Users\320067256\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool\bin\Debug\StaticAnalyzerTool.exe"/>
+		<Process Name ="SolutionPath" Path ="C:\Users\320067256\ChangesSaved\CaseStudy1-brancth_patch1\CaseStudy1-brancth_patch1\AlertSystemServer\AlertSystemServer.sln"/>
+	</InputCodePaths>
+	<Tools>
+		<Tool Name ="FxCop" Path="C:\Program Files (x86)\Microsoft Fxcop 10.0\FxCopCmd.exe">
+			<FxCop Name = "RuleFilePath" Path ="C:\Users\320067256\StaticAnalysisTool\common_fx_cop_file.FxCop"/>
+			<FxCop Name = "OutputFilePath" Path ="C:\Users\320067256\PhilipsCaseStudy-2\TestFxCop.xml"/>			
+		</Tool>
+		<Tool Name ="NDepend" Path="C:\Users\320067256\StaticAnalysisTool\NDepend_2019.2.6.9270\NDepend.Console.exe">
+			<NDepend Name = "RuleFilePath" Path ="C:\Users\320067256\StaticAnalysisTool\common.ndproj"/>
+			<NDepend Name = "OutputFilePath" Path ="C:\Users\320067256\StaticAnalysisTool\XmlOutputs\NDependOutput"/>			
+		</Tool>
+	</Tools>
+</Entry>

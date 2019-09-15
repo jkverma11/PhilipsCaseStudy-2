@@ -1,0 +1,10 @@
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\bin\Debug\StaticAnalyzerXmlConfigurations.Tests.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\bin\Debug\StaticAnalyzerXmlConfigurations.Tests.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\bin\Debug\StaticAnalyzerXmlConfigurationsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\bin\Debug\StaticAnalyzerConfigurationsContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\bin\Debug\StaticAnalyzerXmlConfigurationsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\bin\Debug\StaticAnalyzerConfigurationsContractsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\obj\Debug\StaticAnalyzerXmlConfigurations.Tests.csprojResolveAssemblyReference.cache
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\obj\Debug\StaticAnalyzerXmlConfigurations.Tests.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerXmlConfigurations.Tests\obj\Debug\StaticAnalyzerXmlConfigurations.Tests.pdb

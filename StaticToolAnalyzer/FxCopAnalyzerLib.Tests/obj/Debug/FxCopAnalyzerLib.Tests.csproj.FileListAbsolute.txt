@@ -1,0 +1,16 @@
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.Tests.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.Tests.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\obj\Debug\FxCopAnalyzerLib.Tests.csprojResolveAssemblyReference.cache
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\obj\Debug\FxCopAnalyzerLib.Tests.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\obj\Debug\FxCopAnalyzerLib.Tests.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerConfigurationsContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerUtilitiesLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerXmlConfigurationsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerConfigurationsContractsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerUtilitiesLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerXmlConfigurationsLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerContractsLib.pdb

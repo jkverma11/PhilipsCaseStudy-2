@@ -7,8 +7,13 @@
     <ProjectGuid>{19657DC4-EAEB-4DD2-9143-1E5DFB5226A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
+<<<<<<< HEAD:StaticToolAnalyzer/AnalyzersDataLib/AnalyzersDataLib.csproj
     <RootNamespace>AnalyzersDataLib</RootNamespace>
     <AssemblyName>AnalyzersDataLib</AssemblyName>
+=======
+    <RootNamespace>StaticAnalyzerConfigurationsContractsLib</RootNamespace>
+    <AssemblyName>StaticAnalyzerConfigurationsContractsLib</AssemblyName>
+>>>>>>> 3c25f97ea691b0fcd5b702498a82170d04e9d065:StaticToolAnalyzer/StaticAnalyzerConfigurationsContractsLib/StaticAnalyzerConfigurationsContractsLib.csproj
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
