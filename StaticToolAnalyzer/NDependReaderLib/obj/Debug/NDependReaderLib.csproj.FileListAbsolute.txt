@@ -5,3 +5,5 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\De
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Debug\NDependReaderLib.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Debug\NDependReaderLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Debug\NDependReaderLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Debug\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Debug\ReportReaderContractsLib.dll

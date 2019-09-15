@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AnalyzersDataLib\AnalyzersDataLib.csproj">
-      <Project>{19657dc4-eaeb-4dd2-9143-1e5dfb5226a5}</Project>
+      <Project>{72e4d843-15dd-4b10-91db-84ccf3af8140}</Project>
       <Name>AnalyzersDataLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataModelsLib\DataModelsLib.csproj">

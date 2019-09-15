@@ -3,11 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using DataModelsLib;
 using System.IO;
-<<<<<<< HEAD:StaticToolAnalyzer/TextWriterLib/TextReportWriter.cs
-=======
-using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
->>>>>>> 3c25f97ea691b0fcd5b702498a82170d04e9d065:StaticToolAnalyzer/TextWriterLib/TextWriter.cs
 
 namespace TextWriterLib
 {

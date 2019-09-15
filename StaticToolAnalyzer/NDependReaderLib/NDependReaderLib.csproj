@@ -31,12 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DataModelsLib">
-      <HintPath>..\ConsoleApp1\bin\Debug\DataModelsLib.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportReaderContractsLib">
-      <HintPath>..\ConsoleApp1\bin\Debug\ReportReaderContractsLib.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +43,16 @@
   <ItemGroup>
     <Compile Include="NDependReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataModelsLib\DataModelsLib.csproj">
+      <Project>{cf453928-4aee-47f7-9418-061c3e6022ea}</Project>
+      <Name>DataModelsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReportReaderContractsLib\ReportReaderContractsLib.csproj">
+      <Project>{7f12de8d-d702-4eb1-9286-a66c2efffec3}</Project>
+      <Name>ReportReaderContractsLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -81,8 +81,8 @@ namespace CaseStudy2.Controllers
         private bool StaticAnalyzerProcessor(string userFilePath,string dataPath)
         {
             string fxCopOutputFilePath = dataPath + "AnalyzerTools\\FxCopReport.xml";
-            string fxCopExePath = dataPath + "AnalyzerTools\\Microsoft Fxcop 10.0\\FxCopCmd.exe";
-            string fxCopRulesFilePath = dataPath + "AnalyzerTools\\Microsoft Fxcop 10.0\\common_fx_cop_file.FxCop";
+            string fxCopExePath = dataPath + "AnalyzerTools\\Microsoft_Fxcop_10.0\\FxCopCmd.exe";
+            string fxCopRulesFilePath = dataPath + "AnalyzerTools\\Microsoft_Fxcop_10.0\\common_fx_cop_file.FxCop";
             string analyzerOutputFile = dataPath + "AnalyzerOutput.txt";
             string nDependOutputFilePath = dataPath + "AnalyzerTools\\NDependOutput";
             string nDependExePath = dataPath + "AnalyzerTools\\NDepend_2019.2.7.9280\\NDepend.Console.exe";

@@ -26,11 +26,9 @@ namespace FxCopAnalyzerLib
         #endregion
 
         #region Public Methods
-<<<<<<< HEAD
-        public bool ProcessInput()
-=======
+
        public bool ProcessInput()
->>>>>>> 3c25f97ea691b0fcd5b702498a82170d04e9d065
+
         {
             bool successStatus = false;
             List<string> assembliesList = StaticAnalyzerUtilities.GetPaths(_userFilePath, "*.exe");

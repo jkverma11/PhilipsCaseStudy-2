@@ -1,9 +1,5 @@
-﻿using System;
+﻿using AnalyzersDataLib;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AnalyzersDataLib;
 using FxCopAnalyzerLib;
 using FxCopReaderLib;
 using NDependAnalyzerLib;
@@ -20,10 +16,10 @@ namespace StaticToolAnalyzerApp
     {
         static void Main(string[] args)
         {
-            string appDataPath = @"C:\Users\320050765\PhilipsCaseStudy-2\G7CaseStudy2-master\CaseStudy2\CaseStudy2\App_Data\";
-            string fxCopOutputFilePath = appDataPath + "AnalyzerTools\\FxCopReport.xml";
-            string fxCopExePath = appDataPath + "AnalyzerTools\\Microsoft Fxcop 10.0\\FxCopCmd.exe";
-            string fxCopRulesFilePath = appDataPath + "AnalyzerTools\\Microsoft Fxcop 10.0\\common_fx_cop_file.FxCop";
+            string appDataPath = @"C:\\Users\\320050765\\PhilipsCaseStudy-2\\CaseStudy2\\CaseStudy2\\App_Data\\";
+            string fxCopOutputFilePath = appDataPath + @"AnalyzerTools\\FxCopReport.xml";
+            string fxCopExePath = appDataPath + @"AnalyzerTools\\Microsoft_Fxcop_10.0\\FxCopCmd.exe";
+            string fxCopRulesFilePath = appDataPath + "AnalyzerTools\\Microsoft_Fxcop_10.0\\common_fx_cop_file.FxCop";
             string userFilePath = appDataPath + "ProjectFiles\\StaticAnalyzerTool";
             string analyzerOutputFile = appDataPath + "AnalyzerOutput.txt";
             string nDependOutputFilePath = appDataPath + "AnalyzerTools\\NDependOutput";
