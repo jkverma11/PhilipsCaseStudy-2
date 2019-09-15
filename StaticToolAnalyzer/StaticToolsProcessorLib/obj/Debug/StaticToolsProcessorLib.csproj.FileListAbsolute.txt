@@ -11,3 +11,5 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\AnalyzersDataLib.pdb

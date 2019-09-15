@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using AnalyzersDataLib;
 using StaticAnalyzerContractsLib;
 using ReportReaderContractsLib;
 using WriterContractsLib;
@@ -15,13 +11,16 @@ namespace StaticToolsProcessorLib
         #region Private Fields
         private readonly List<IStaticAnalyzers> _staticAnalyzers;
         private readonly List<IReader> _reportReaders;
-        private readonly IWriter _writer;
+        private readonly IReportWriter _writer;
+        private readonly List<AnalyzersDataModel> _analyzersDataList;
+        private AnalyzersDataModel _analyzersData;
         #endregion
 
         #region Initializer
 
-        public StaticToolsProcessor(List<IStaticAnalyzers> staticAnalyzers,List<IReader> readers,IWriter writer)
+        public StaticToolsProcessor(List<AnalyzersDataModel> analyzersDataList,List<IStaticAnalyzers> staticAnalyzers,List<IReader> readers,IReportWriter writer)
         {
+            _analyzersDataList = analyzersDataList;
             _staticAnalyzers = staticAnalyzers;
             _reportReaders = readers;
             _writer = writer;
@@ -37,15 +36,16 @@ namespace StaticToolsProcessorLib
             bool successStatus = false;
             foreach (var analyzer in _staticAnalyzers)
             {
-                successStatus = analyzer.ProcessInput() && analyzer.ProcessOutput();
+                _analyzersData = _analyzersDataList.Find(x => x.Name.Contains(analyzer.AnalyzerName));
+                    analyzer.AnalyzersData = _analyzersData;
+                    successStatus=analyzer.ProcessInput()&&analyzer.ProcessOutput();                   
             }
-
             foreach (var reportReader in _reportReaders)
             {
-                var dataModelsList = reportReader.Read();
-                successStatus=successStatus && _writer.Write(dataModelsList);
+                _analyzersData = _analyzersDataList.Find(x => x.Name.Contains(reportReader.Name));
+                    var dataModelsList = reportReader.Read(_analyzersData.OutputFilePath);
+                    successStatus = successStatus && _writer.Write(dataModelsList);
             }
-
             return successStatus;
         }
 

@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataModelsLib;
 using System.Xml.Linq;
-using StaticAnalyzerConfigurationsContractsLib;
 
 
 namespace FxCopReaderLib
@@ -13,23 +10,23 @@ namespace FxCopReaderLib
     public class FxCopReader:ReportReaderContractsLib.IReader
     {
         #region Fields
-        private readonly IStaticAnalyzerConfigurations _readConfiguration;
+
         private readonly List<DataModelsLib.DataModel> _dataModels = new List<DataModelsLib.DataModel>();
+
+        public string Name { get; } = "FxCop";
+        
         #endregion
 
         #region Constructor
-        public FxCopReader(IStaticAnalyzerConfigurations readConfiguration)
-        {
-            this._readConfiguration = readConfiguration;
-        }
+
         #endregion
 
         #region Method
-        public List<DataModelsLib.DataModel> Read()
+        public List<DataModelsLib.DataModel> Read(string analyzerOutputFilePath)
         {
             try
             {
-                var xmlDoc = XElement.Load(_readConfiguration.GetAnalyzerOutputFilePath("FxCop"));
+                var xmlDoc = XElement.Load(analyzerOutputFilePath);
                 var messages = from element in xmlDoc.Descendants()
                     where element.Name == "Issue"
                     select element;
@@ -43,7 +40,8 @@ namespace FxCopReaderLib
                         FilePath = message.Attribute("Path")?.ToString(),
                         FileName = message.Attribute("File")?.ToString(),
                         LineNumber = message.Attribute("Line")?.ToString(),
-                        StaticAnalyzerTool = "FxCop"
+                        StaticAnalyzerTool = "FxCop",
+                        TimeStamp = DateTime.Now
                     };
                     _dataModels.Add(dataModelTemp);
                 }

@@ -26,10 +26,8 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debu
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debug\FxCopReaderLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debug\DataModelsLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debug\ReportReaderContractsLib.dll
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debug\StaticAnalyzerConfigurationsContractsLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debug\DataModelsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debug\ReportReaderContractsLib.pdb
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Debug\StaticAnalyzerConfigurationsContractsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Debug\FxCopReaderLib.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Debug\FxCopReaderLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Debug\FxCopReaderLib.pdb

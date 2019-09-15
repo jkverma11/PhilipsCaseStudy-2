@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
 
 namespace DataModelsLib
 {
     public class DataModel
     {
         #region Properties
+        public DateTime TimeStamp { get; set; }
         public string StaticAnalyzerTool { get; set; }
         public string ErrorMsg { get; set; }
         public string ErrorType { get; set; }
@@ -18,6 +16,8 @@ namespace DataModelsLib
         public string LineNumber { get; set; }
 
         public string ErrorCount { get; set; }
+
+       
         #endregion
 
 

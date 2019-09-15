@@ -1,52 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using StaticAnalyzerContractsLib;
-using StaticAnalyzerConfigurationsContractsLib;
 using StaticAnalyzerUtilitiesLib;
+using System;
+using AnalyzersDataLib;
 
 namespace FxCopAnalyzerLib
 {
-    public class FxCopAnalyzer : IStaticAnalyzers
+    public sealed class FxCopAnalyzer : IStaticAnalyzers
     {
         #region Private Fields
-        private readonly string _fxCopExePath;
-        private readonly string _userCodeExePath;
-        private readonly string _fxCopRulesFilePath;
-        private readonly string _fxCopOutputFilePath;
+        private readonly string _userFilePath;
+
+        public string AnalyzerName { get; } = "FxCop";
+        public AnalyzersDataModel AnalyzersData { get; set; }
+
         #endregion
 
         #region Initialyzer
-        public FxCopAnalyzer(IStaticAnalyzerConfigurations configurations)
+        public FxCopAnalyzer(string userFilePath)
         {
-            var configurationsRef = configurations;
-            _fxCopExePath = configurationsRef.GetAnalyzerExePath("FxCop");
-            _userCodeExePath = configurationsRef.GetUserCodeExePath();
-            _fxCopRulesFilePath = configurationsRef.GetAnalyzerRulesFilePath("FxCop");
-            _fxCopOutputFilePath = configurationsRef.GetAnalyzerOutputFilePath("FxCop");
+            
+            _userFilePath = userFilePath;
         }
-
         #endregion
 
         #region Public Methods
-        bool IStaticAnalyzers.ProcessInput()
+        public bool ProcessInput()
         {
-            bool successStatus = StaticAnalyzerUtilities.ChangeSolutionPath(_fxCopRulesFilePath, _userCodeExePath, "Target", "Name");
-
+            bool successStatus = false;
+            List<string> assembliesList = StaticAnalyzerUtilities.GetPaths(_userFilePath, "*.exe");
+            if (assembliesList.Count > 0)
+            {
+                successStatus = StaticAnalyzerUtilities.ChangeSolutionPath(AnalyzersData.RuleFilePath, assembliesList, "Targets", "Target", "Name");
+            }
             return successStatus;
         }
 
-        bool IStaticAnalyzers.ProcessOutput()
+        public bool ProcessOutput()
         {
-            string arguments = @"/p:" + _fxCopRulesFilePath + @" /out:" + _fxCopOutputFilePath;
+            string arguments = @"/p:" + AnalyzersData.RuleFilePath + @" /out:" + AnalyzersData.OutputFilePath;
             bool successStatus =
-                StaticAnalyzerUtilities.RunAnalyzerProcess(arguments, _fxCopExePath, ProcessWindowStyle.Hidden);
+                StaticAnalyzerUtilities.RunAnalyzerProcess(arguments, AnalyzersData.ExePath, ProcessWindowStyle.Hidden);
             return successStatus;
         }
-
 
         #endregion
 

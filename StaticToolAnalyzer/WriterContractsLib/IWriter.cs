@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WriterContractsLib
 {
-    public interface IWriter
+    public interface IReportWriter
     {
         #region Method
         bool Write(List<DataModelsLib.DataModel> dataModels);

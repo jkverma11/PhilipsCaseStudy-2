@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FxCopAnalyzerLib</RootNamespace>
     <AssemblyName>FxCopAnalyzerLib</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StaticAnalyzerConfigurationsContractsLib\StaticAnalyzerConfigurationsContractsLib.csproj">
-      <Project>{af425cad-7331-48c2-ad00-4aed870c2366}</Project>
-      <Name>StaticAnalyzerConfigurationsContractsLib</Name>
+    <ProjectReference Include="..\AnalyzersDataLib\AnalyzersDataLib.csproj">
+      <Project>{19657dc4-eaeb-4dd2-9143-1e5dfb5226a5}</Project>
+      <Name>AnalyzersDataLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\StaticAnalyzerContractsLib\StaticAnalyzerContractsLib.csproj">
       <Project>{565e5a7b-9beb-4538-bdac-d00e6ababd8d}</Project>

@@ -1,0 +1,11 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\NDependAnalyzerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\NDependAnalyzerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\AnalyzersDataLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.csprojResolveAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.pdb

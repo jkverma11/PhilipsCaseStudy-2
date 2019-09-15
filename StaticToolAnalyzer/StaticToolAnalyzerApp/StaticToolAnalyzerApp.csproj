@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DA4BCC6-873D-46C2-BEEA-607CAC933FF1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StaticToolAnalyzerApp</RootNamespace>
+    <AssemblyName>StaticToolAnalyzerApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AnalyzersDataLib\AnalyzersDataLib.csproj">
+      <Project>{19657dc4-eaeb-4dd2-9143-1e5dfb5226a5}</Project>
+      <Name>AnalyzersDataLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModelsLib\DataModelsLib.csproj">
+      <Project>{cf453928-4aee-47f7-9418-061c3e6022ea}</Project>
+      <Name>DataModelsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FxCopAnalyzerLib\FxCopAnalyzerLib.csproj">
+      <Project>{e689bba1-da7b-4d0b-903a-2997f0bd1d34}</Project>
+      <Name>FxCopAnalyzerLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FxCopReaderLib\FxCopReaderLib.csproj">
+      <Project>{bb82de03-f4b2-4b07-94c7-ee097b6cd63b}</Project>
+      <Name>FxCopReaderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NDependAnalyzerLib\NDependAnalyzerLib.csproj">
+      <Project>{713eab91-e849-4693-a814-f269fc05b08f}</Project>
+      <Name>NDependAnalyzerLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NDependReaderLib\NDependReaderLib.csproj">
+      <Project>{86a946a9-16a5-44e8-8a62-7ab65b0d5661}</Project>
+      <Name>NDependReaderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReportReaderContractsLib\ReportReaderContractsLib.csproj">
+      <Project>{7f12de8d-d702-4eb1-9286-a66c2efffec3}</Project>
+      <Name>ReportReaderContractsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticAnalyzerContractsLib\StaticAnalyzerContractsLib.csproj">
+      <Project>{565e5a7b-9beb-4538-bdac-d00e6ababd8d}</Project>
+      <Name>StaticAnalyzerContractsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticAnalyzerUtilitiesLib\StaticAnalyzerUtilitiesLib.csproj">
+      <Project>{e6ec59ce-e098-45ed-83ce-d20d3f5a1fa2}</Project>
+      <Name>StaticAnalyzerUtilitiesLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticToolsProcessorLib\StaticToolsProcessorLib.csproj">
+      <Project>{3f4711c7-92db-42bf-bf48-fc4bb84c7916}</Project>
+      <Name>StaticToolsProcessorLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TextWriterLib\TextWriterLib.csproj">
+      <Project>{2be7eb22-b4a7-440f-b96a-9a845a6caaa5}</Project>
+      <Name>TextWriterLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WriterContractsLib\WriterContractsLib.csproj">
+      <Project>{9afad4df-fab4-4631-90dc-e3ee41223a15}</Project>
+      <Name>WriterContractsLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

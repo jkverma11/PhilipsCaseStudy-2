@@ -53,10 +53,6 @@
       <Project>{7f12de8d-d702-4eb1-9286-a66c2efffec3}</Project>
       <Name>ReportReaderContractsLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StaticAnalyzerConfigurationsContractsLib\StaticAnalyzerConfigurationsContractsLib.csproj">
-      <Project>{af425cad-7331-48c2-ad00-4aed870c2366}</Project>
-      <Name>StaticAnalyzerConfigurationsContractsLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

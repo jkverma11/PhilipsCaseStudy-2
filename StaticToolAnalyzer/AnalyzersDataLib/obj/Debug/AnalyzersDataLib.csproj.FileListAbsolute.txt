@@ -1,0 +1,5 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\bin\Debug\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\bin\Debug\AnalyzersDataLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\obj\Debug\AnalyzersDataLib.csprojResolveAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\obj\Debug\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\obj\Debug\AnalyzersDataLib.pdb

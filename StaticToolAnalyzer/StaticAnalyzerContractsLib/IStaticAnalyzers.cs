@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using AnalyzersDataLib;
 namespace StaticAnalyzerContractsLib
 {
     public interface IStaticAnalyzers
@@ -11,6 +6,9 @@ namespace StaticAnalyzerContractsLib
         #region Public Methods
         bool ProcessInput();
         bool ProcessOutput();
+
+        string AnalyzerName { get; }
+        AnalyzersDataModel AnalyzersData { get; set; } 
         #endregion
     }
 }

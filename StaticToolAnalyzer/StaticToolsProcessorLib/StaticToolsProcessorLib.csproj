@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AnalyzersDataLib\AnalyzersDataLib.csproj">
+      <Project>{19657dc4-eaeb-4dd2-9143-1e5dfb5226a5}</Project>
+      <Name>AnalyzersDataLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataModelsLib\DataModelsLib.csproj">
       <Project>{cf453928-4aee-47f7-9418-061c3e6022ea}</Project>
       <Name>DataModelsLib</Name>

@@ -1,0 +1,175 @@
+TimeStamp	StaticAnalyzerTool	ErrorMsg	ErrorType	ErrorCertainty	FilePath	FileName	LineNumber	ErrorCount	
+2019-09-15 4:38:02 PM	FxCop	Sign 'StaticAnalyzerTool.exe' with a strong name key.	Name="NoStrongName"	Certainty="95"					
+2019-09-15 4:38:02 PM	FxCop	Mark 'StaticAnalyzerTool.exe' with CLSCompliant(true) because it exposes externally visible types.		Certainty="95"					
+2019-09-15 4:38:02 PM	FxCop	'CoverityAnalyzer' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.		Certainty="75"					
+2019-09-15 4:38:02 PM	FxCop	Modify 'FxCopAnalyzer.ProcessOutput()' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="FxCopAnalyzer.cs"	Line="43"		
+2019-09-15 4:38:02 PM	FxCop	'FxCopAnalyzer.PropertyName.get()' appears to have no upstream public or protected callers.		Certainty="75"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="FxCopAnalyzer.cs"	Line="13"		
+2019-09-15 4:38:02 PM	FxCop	Because the behavior of 'string.Format(string, params object[])' could vary based on the current user's locale settings, replace this call in 'FxCopReport.GenerateFxCopReport(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.	Name="IFormatProviderAlternateString"	Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="FxCopReport.cs"	Line="52"		
+2019-09-15 4:38:02 PM	FxCop	'NDependAnalyzer' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.		Certainty="75"					
+2019-09-15 4:38:02 PM	FxCop	Modify 'NDependAnalyzer.ProcessOutput()' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependAnalyzer.cs"	Line="31"		
+2019-09-15 4:38:02 PM	FxCop	Modify 'NDependXmlReport.GenerateNDependReport(string)' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependXmlReport.cs"	Line="93"		
+2019-09-15 4:38:02 PM	FxCop	In method 'NDependXmlReport.GenerateNDependReport(string)', correct the spelling of 'n' in parameter name 'nDependXmlOutputPath' or remove it entirely if it represents any sort of Hungarian notation.	Name="MemberParameter"	Certainty="75"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependXmlReport.cs"	Line="12"		
+2019-09-15 4:38:02 PM	FxCop	Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'NDependXmlReport.GenerateNDependReport(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.	Name="IFormatProviderAlternateString"	Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependXmlReport.cs"	Line="73"		
+2019-09-15 4:38:02 PM	FxCop	Parameter 'args' of 'Program.Main(string[])' is never used. Remove the parameter or use it in the method body.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="Program.cs"	Line="16"		
+2019-09-15 4:38:02 PM	FxCop	Modify 'XmlParser.XmlParse(string, string)' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlParser.cs"	Line="27"		
+2019-09-15 4:38:02 PM	FxCop	Modify 'XmlWriter.EditSolutionName(string, string, string, string)' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="24"		
+2019-09-15 4:38:02 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Attribute' in parameter name 'AttributeName' by changing it to 'attribute'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:38:02 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Element' in parameter name 'ElementName' by changing it to 'element'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:38:02 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Solution' in parameter name 'SolutionPath' by changing it to 'solution'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:38:02 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Xml' in parameter name 'XmlPath' by changing it to 'xml'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:38:02 PM	NDepend	# New Issues since Baseline						0	
+2019-09-15 4:38:02 PM	NDepend	# Issues Fixed since Baseline						0	
+2019-09-15 4:38:02 PM	NDepend	# Issues Worsened since Baseline						0	
+2019-09-15 4:38:02 PM	NDepend	# Issues with severity Blocker						0	
+2019-09-15 4:38:02 PM	NDepend	# Issues with severity Critical						0	
+2019-09-15 4:38:02 PM	NDepend	# Issues with severity High						5	
+2019-09-15 4:38:02 PM	NDepend	# Issues with severity Medium						15	
+2019-09-15 4:38:02 PM	NDepend	# Issues with severity Low						5	
+2019-09-15 4:38:02 PM	NDepend	# Blocker/Critical/High Issues						5	
+2019-09-15 4:38:02 PM	NDepend	# Issues						25	
+2019-09-15 4:38:02 PM	NDepend	# Suppressed Issues						0	
+2019-09-15 4:38:02 PM	NDepend	# Rules						152	
+2019-09-15 4:38:02 PM	NDepend	# Rules Violated						14	
+2019-09-15 4:38:02 PM	NDepend	# Critical Rules Violated						1	
+2019-09-15 4:38:02 PM	NDepend	# Quality Gates						11	
+2019-09-15 4:38:02 PM	NDepend	# Quality Gates Warn						0	
+2019-09-15 4:38:02 PM	NDepend	# Quality Gates Fail						1	
+2019-09-15 4:38:02 PM	NDepend	Percentage Debt (Metric)						10.65	
+2019-09-15 4:38:02 PM	NDepend	Debt (Metric)						0.34506	
+2019-09-15 4:38:02 PM	NDepend	New Debt since Baseline (Metric)						0	
+2019-09-15 4:38:02 PM	NDepend	Annual Interest (Metric)						0.3887	
+2019-09-15 4:38:02 PM	NDepend	New Annual Interest since Baseline (Metric)						0	
+2019-09-15 4:38:02 PM	NDepend	Breaking Point						0.88772	
+2019-09-15 4:38:02 PM	NDepend	Breaking Point of Blocker / Critical / High Issues						0.57547	
+2019-09-15 4:38:02 PM	NDepend	# Lines of Code						139	
+2019-09-15 4:38:02 PM	NDepend	# Lines of Code (JustMyCode)						139	
+2019-09-15 4:38:02 PM	NDepend	# Lines of Code (NotMyCode)						0	
+2019-09-15 4:38:02 PM	NDepend	# Lines of Code Added since the Baseline						0	
+2019-09-15 4:38:02 PM	NDepend	# Source Files						10	
+2019-09-15 4:38:02 PM	NDepend	# IL Instructions						818	
+2019-09-15 4:38:02 PM	NDepend	# IL Instructions (NotMyCode)						8	
+2019-09-15 4:38:02 PM	NDepend	# Lines of Comments						25	
+2019-09-15 4:38:02 PM	NDepend	Percentage of Comments						15.24	
+2019-09-15 4:38:02 PM	NDepend	# Assemblies						1	
+2019-09-15 4:38:02 PM	NDepend	# Namespaces						1	
+2019-09-15 4:38:02 PM	NDepend	# Types						10	
+2019-09-15 4:38:02 PM	NDepend	# Public Types						3	
+2019-09-15 4:38:02 PM	NDepend	# Classes						8	
+2019-09-15 4:38:02 PM	NDepend	# Abstract Classes						0	
+2019-09-15 4:38:02 PM	NDepend	# Interfaces						1	
+2019-09-15 4:38:02 PM	NDepend	# Structures						1	
+2019-09-15 4:38:02 PM	NDepend	# Methods						18	
+2019-09-15 4:38:02 PM	NDepend	# Abstract Methods						2	
+2019-09-15 4:38:02 PM	NDepend	# Concrete Methods						16	
+2019-09-15 4:38:02 PM	NDepend	# Fields						8	
+2019-09-15 4:38:02 PM	NDepend	Max # Lines of Code for Methods (JustMyCode)						39	
+2019-09-15 4:38:02 PM	NDepend	Average # Lines of Code for Methods						8.69	
+2019-09-15 4:38:02 PM	NDepend	Average # Lines of Code for Methods with at least 3 Lines of Code						13.3	
+2019-09-15 4:38:02 PM	NDepend	Max # Lines of Code for Types (JustMyCode)						39	
+2019-09-15 4:38:02 PM	NDepend	Average # Lines of Code for Types						17.38	
+2019-09-15 4:38:02 PM	NDepend	Max Cyclomatic Complexity for Methods						5	
+2019-09-15 4:38:02 PM	NDepend	Average Cyclomatic Complexity for Methods						1.81	
+2019-09-15 4:38:02 PM	NDepend	Max IL Cyclomatic Complexity for Methods						28	
+2019-09-15 4:38:02 PM	NDepend	Average IL Cyclomatic Complexity for Methods						4.06	
+2019-09-15 4:38:02 PM	NDepend	Max IL Nesting Depth for Methods						6	
+2019-09-15 4:38:02 PM	NDepend	Average IL Nesting Depth for Methods						0.83333	
+2019-09-15 4:38:02 PM	NDepend	Max # of Methods for Types						5	
+2019-09-15 4:38:02 PM	NDepend	Average # Methods for Types						2	
+2019-09-15 4:38:02 PM	NDepend	Max # of Methods for Interfaces						2	
+2019-09-15 4:38:02 PM	NDepend	Average # Methods for Interfaces						2	
+2019-09-15 4:38:02 PM	NDepend	# Lines of Code Uncoverable						0	
+2019-09-15 4:38:02 PM	NDepend	# Third-Party Assemblies Used						5	
+2019-09-15 4:38:02 PM	NDepend	# Third-Party Namespaces Used						14	
+2019-09-15 4:38:02 PM	NDepend	# Third-Party Types Used						62	
+2019-09-15 4:38:02 PM	NDepend	# Third-Party Methods Used						60	
+2019-09-15 4:38:02 PM	NDepend	# Third-Party Fields Used						1	
+2019-09-15 4:38:02 PM	NDepend	# Rules Violations						25	
+2019-09-15 4:38:02 PM	NDepend	# Critical Rules						21	
+2019-09-15 4:38:02 PM	NDepend	# Critical Rules Violations						1	
+2019-09-15 4:43:21 PM	FxCop	Sign 'StaticAnalyzerTool.exe' with a strong name key.	Name="NoStrongName"	Certainty="95"					
+2019-09-15 4:43:21 PM	FxCop	Mark 'StaticAnalyzerTool.exe' with CLSCompliant(true) because it exposes externally visible types.		Certainty="95"					
+2019-09-15 4:43:21 PM	FxCop	'CoverityAnalyzer' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.		Certainty="75"					
+2019-09-15 4:43:21 PM	FxCop	Modify 'FxCopAnalyzer.ProcessOutput()' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="FxCopAnalyzer.cs"	Line="43"		
+2019-09-15 4:43:21 PM	FxCop	'FxCopAnalyzer.PropertyName.get()' appears to have no upstream public or protected callers.		Certainty="75"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="FxCopAnalyzer.cs"	Line="13"		
+2019-09-15 4:43:21 PM	FxCop	Because the behavior of 'string.Format(string, params object[])' could vary based on the current user's locale settings, replace this call in 'FxCopReport.GenerateFxCopReport(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.	Name="IFormatProviderAlternateString"	Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="FxCopReport.cs"	Line="52"		
+2019-09-15 4:43:21 PM	FxCop	'NDependAnalyzer' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.		Certainty="75"					
+2019-09-15 4:43:21 PM	FxCop	Modify 'NDependAnalyzer.ProcessOutput()' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependAnalyzer.cs"	Line="31"		
+2019-09-15 4:43:21 PM	FxCop	Modify 'NDependXmlReport.GenerateNDependReport(string)' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependXmlReport.cs"	Line="93"		
+2019-09-15 4:43:21 PM	FxCop	In method 'NDependXmlReport.GenerateNDependReport(string)', correct the spelling of 'n' in parameter name 'nDependXmlOutputPath' or remove it entirely if it represents any sort of Hungarian notation.	Name="MemberParameter"	Certainty="75"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependXmlReport.cs"	Line="12"		
+2019-09-15 4:43:21 PM	FxCop	Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'NDependXmlReport.GenerateNDependReport(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.	Name="IFormatProviderAlternateString"	Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="NDependXmlReport.cs"	Line="73"		
+2019-09-15 4:43:21 PM	FxCop	Parameter 'args' of 'Program.Main(string[])' is never used. Remove the parameter or use it in the method body.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="Program.cs"	Line="16"		
+2019-09-15 4:43:21 PM	FxCop	Modify 'XmlParser.XmlParse(string, string)' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlParser.cs"	Line="27"		
+2019-09-15 4:43:21 PM	FxCop	Modify 'XmlWriter.EditSolutionName(string, string, string, string)' to catch a more specific exception than 'Exception' or rethrow the exception.		Certainty="95"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="24"		
+2019-09-15 4:43:21 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Attribute' in parameter name 'AttributeName' by changing it to 'attribute'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:43:21 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Element' in parameter name 'ElementName' by changing it to 'element'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:43:21 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Solution' in parameter name 'SolutionPath' by changing it to 'solution'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:43:21 PM	FxCop	In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Xml' in parameter name 'XmlPath' by changing it to 'xml'.	Name="MemberParameter"	Certainty="85"	Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool"	File="XmlWriter.cs"	Line="13"		
+2019-09-15 4:43:21 PM	NDepend	# New Issues since Baseline						0	
+2019-09-15 4:43:21 PM	NDepend	# Issues Fixed since Baseline						0	
+2019-09-15 4:43:21 PM	NDepend	# Issues Worsened since Baseline						0	
+2019-09-15 4:43:21 PM	NDepend	# Issues with severity Blocker						0	
+2019-09-15 4:43:21 PM	NDepend	# Issues with severity Critical						0	
+2019-09-15 4:43:21 PM	NDepend	# Issues with severity High						5	
+2019-09-15 4:43:21 PM	NDepend	# Issues with severity Medium						15	
+2019-09-15 4:43:21 PM	NDepend	# Issues with severity Low						5	
+2019-09-15 4:43:21 PM	NDepend	# Blocker/Critical/High Issues						5	
+2019-09-15 4:43:21 PM	NDepend	# Issues						25	
+2019-09-15 4:43:21 PM	NDepend	# Suppressed Issues						0	
+2019-09-15 4:43:21 PM	NDepend	# Rules						152	
+2019-09-15 4:43:21 PM	NDepend	# Rules Violated						14	
+2019-09-15 4:43:21 PM	NDepend	# Critical Rules Violated						1	
+2019-09-15 4:43:21 PM	NDepend	# Quality Gates						11	
+2019-09-15 4:43:21 PM	NDepend	# Quality Gates Warn						0	
+2019-09-15 4:43:21 PM	NDepend	# Quality Gates Fail						1	
+2019-09-15 4:43:21 PM	NDepend	Percentage Debt (Metric)						10.65	
+2019-09-15 4:43:21 PM	NDepend	Debt (Metric)						0.34506	
+2019-09-15 4:43:21 PM	NDepend	New Debt since Baseline (Metric)						0	
+2019-09-15 4:43:21 PM	NDepend	Annual Interest (Metric)						0.3887	
+2019-09-15 4:43:21 PM	NDepend	New Annual Interest since Baseline (Metric)						0	
+2019-09-15 4:43:21 PM	NDepend	Breaking Point						0.88772	
+2019-09-15 4:43:21 PM	NDepend	Breaking Point of Blocker / Critical / High Issues						0.57547	
+2019-09-15 4:43:21 PM	NDepend	# Lines of Code						139	
+2019-09-15 4:43:21 PM	NDepend	# Lines of Code (JustMyCode)						139	
+2019-09-15 4:43:21 PM	NDepend	# Lines of Code (NotMyCode)						0	
+2019-09-15 4:43:21 PM	NDepend	# Lines of Code Added since the Baseline						0	
+2019-09-15 4:43:21 PM	NDepend	# Source Files						10	
+2019-09-15 4:43:21 PM	NDepend	# IL Instructions						818	
+2019-09-15 4:43:21 PM	NDepend	# IL Instructions (NotMyCode)						8	
+2019-09-15 4:43:21 PM	NDepend	# Lines of Comments						25	
+2019-09-15 4:43:21 PM	NDepend	Percentage of Comments						15.24	
+2019-09-15 4:43:21 PM	NDepend	# Assemblies						1	
+2019-09-15 4:43:21 PM	NDepend	# Namespaces						1	
+2019-09-15 4:43:21 PM	NDepend	# Types						10	
+2019-09-15 4:43:21 PM	NDepend	# Public Types						3	
+2019-09-15 4:43:21 PM	NDepend	# Classes						8	
+2019-09-15 4:43:21 PM	NDepend	# Abstract Classes						0	
+2019-09-15 4:43:21 PM	NDepend	# Interfaces						1	
+2019-09-15 4:43:21 PM	NDepend	# Structures						1	
+2019-09-15 4:43:21 PM	NDepend	# Methods						18	
+2019-09-15 4:43:21 PM	NDepend	# Abstract Methods						2	
+2019-09-15 4:43:21 PM	NDepend	# Concrete Methods						16	
+2019-09-15 4:43:21 PM	NDepend	# Fields						8	
+2019-09-15 4:43:21 PM	NDepend	Max # Lines of Code for Methods (JustMyCode)						39	
+2019-09-15 4:43:21 PM	NDepend	Average # Lines of Code for Methods						8.69	
+2019-09-15 4:43:21 PM	NDepend	Average # Lines of Code for Methods with at least 3 Lines of Code						13.3	
+2019-09-15 4:43:21 PM	NDepend	Max # Lines of Code for Types (JustMyCode)						39	
+2019-09-15 4:43:21 PM	NDepend	Average # Lines of Code for Types						17.38	
+2019-09-15 4:43:21 PM	NDepend	Max Cyclomatic Complexity for Methods						5	
+2019-09-15 4:43:21 PM	NDepend	Average Cyclomatic Complexity for Methods						1.81	
+2019-09-15 4:43:21 PM	NDepend	Max IL Cyclomatic Complexity for Methods						28	
+2019-09-15 4:43:21 PM	NDepend	Average IL Cyclomatic Complexity for Methods						4.06	
+2019-09-15 4:43:21 PM	NDepend	Max IL Nesting Depth for Methods						6	
+2019-09-15 4:43:21 PM	NDepend	Average IL Nesting Depth for Methods						0.83333	
+2019-09-15 4:43:21 PM	NDepend	Max # of Methods for Types						5	
+2019-09-15 4:43:21 PM	NDepend	Average # Methods for Types						2	
+2019-09-15 4:43:21 PM	NDepend	Max # of Methods for Interfaces						2	
+2019-09-15 4:43:21 PM	NDepend	Average # Methods for Interfaces						2	
+2019-09-15 4:43:21 PM	NDepend	# Lines of Code Uncoverable						0	
+2019-09-15 4:43:21 PM	NDepend	# Third-Party Assemblies Used						5	
+2019-09-15 4:43:21 PM	NDepend	# Third-Party Namespaces Used						14	
+2019-09-15 4:43:21 PM	NDepend	# Third-Party Types Used						62	
+2019-09-15 4:43:21 PM	NDepend	# Third-Party Methods Used						60	
+2019-09-15 4:43:21 PM	NDepend	# Third-Party Fields Used						1	
+2019-09-15 4:43:21 PM	NDepend	# Rules Violations						25	
+2019-09-15 4:43:21 PM	NDepend	# Critical Rules						21	
+2019-09-15 4:43:21 PM	NDepend	# Critical Rules Violations						1	
