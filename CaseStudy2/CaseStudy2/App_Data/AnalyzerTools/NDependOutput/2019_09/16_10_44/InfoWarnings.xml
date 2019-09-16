@@ -25,6 +25,6 @@
   <Info>Execute queries and rules.</Info>
   <Error>1 quality gate fails:
   - 'Critical Rules Violated' value 1 rules greater than fail threshold 0 rules</Error>
-  <Info>NDepend analysis done. Duration: 00:14</Info>
+  <Info>NDepend analysis done. Duration: 00:27</Info>
   <Info>Building the report (standard).</Info>
 </InfoWarnings>
