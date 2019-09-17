@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticToolAnalyzerApp", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzersDataLib", "AnalyzersDataLib\AnalyzersDataLib.csproj", "{72E4D843-15DD-4B10-91DB-84CCF3AF8140}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLoggerLib", "ConsoleLoggerLib\ConsoleLoggerLib.csproj", "{D6063CB7-5BA3-494C-91F5-2558B190D7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggersContractLib", "LoggersContractLib\LoggersContractLib.csproj", "{47C6039A-50B1-4AD2-8772-A7053CC6C2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyzerUtilitiesContractsLib", "StaticAnalyzerUtilitiesContractsLib\StaticAnalyzerUtilitiesContractsLib.csproj", "{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +93,18 @@ Global
 		{72E4D843-15DD-4B10-91DB-84CCF3AF8140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E4D843-15DD-4B10-91DB-84CCF3AF8140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E4D843-15DD-4B10-91DB-84CCF3AF8140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6063CB7-5BA3-494C-91F5-2558B190D7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6063CB7-5BA3-494C-91F5-2558B190D7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6063CB7-5BA3-494C-91F5-2558B190D7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6063CB7-5BA3-494C-91F5-2558B190D7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C6039A-50B1-4AD2-8772-A7053CC6C2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C6039A-50B1-4AD2-8772-A7053CC6C2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C6039A-50B1-4AD2-8772-A7053CC6C2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C6039A-50B1-4AD2-8772-A7053CC6C2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

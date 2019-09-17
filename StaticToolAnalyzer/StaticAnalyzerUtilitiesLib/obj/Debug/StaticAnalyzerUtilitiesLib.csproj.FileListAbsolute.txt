@@ -18,3 +18,7 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilities
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Debug\StaticAnalyzerUtilitiesLib.dll
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Debug\StaticAnalyzerUtilitiesLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Debug\StaticAnalyzerUtilitiesLib.csprojResolveAssemblyReference.cache
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Debug\LoggersContractLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.dll
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Debug\LoggersContractLib.pdb
+C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb

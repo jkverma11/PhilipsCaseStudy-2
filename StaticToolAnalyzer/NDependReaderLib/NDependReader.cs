@@ -4,6 +4,7 @@ using System.Linq;
 using System.Xml.Linq;
 using DataModelsLib;
 using ReportReaderContractsLib;
+using LoggersContractLib;
 
 namespace NDependReaderLib
 {
@@ -13,12 +14,20 @@ namespace NDependReaderLib
         private readonly List<string> _metricNameList = new List<string>();
         private readonly List< string> _metricValueList = new List<string>();
         private readonly List<DataModel> _dataModels= new List<DataModel>();
+        private ILogger _loggerRef;
         #endregion
 
         #region Properties
 
         public string Name { get; } = "NDepend";
 
+        #endregion
+
+        #region Initializer
+        public NDependReader(ILogger LoggerRef)
+        {
+            this._loggerRef = LoggerRef;
+        }
         #endregion
 
         #region Public Methods
@@ -49,21 +58,17 @@ namespace NDependReaderLib
             {
                 var xmlDoc = XElement.Load(filePath);
                 var messages = GetElements(xmlDoc, "Metric");
-                foreach (var message in messages)
-                {
-                    _metricNameList.Add(AttributeValidator(message.Attribute("Name")));
-                }
+                CreateMetricNameList(messages);
+                
                 var metricValueElements = GetElements(xmlDoc, "R").FirstOrDefault();
                 var metricValues = AttributeValidator(metricValueElements?.Attribute("V"));
                 var splitValues = SplitList(metricValues, '|');
-                foreach (var value in splitValues)
-                {
-                    _metricValueList.Add(value);
-                }
+                CreateMetricValueList(splitValues);
+               
             }
             catch (Exception exception)
             {
-                Console.WriteLine(exception);
+                this._loggerRef.Write(exception);
             }
         }
         #endregion
@@ -95,6 +100,24 @@ namespace NDependReaderLib
                 value = attribute.Value;
             }
             return value;
+        }
+
+        private void CreateMetricNameList(IEnumerable<XElement> messages)
+        {
+            foreach (var message in messages)
+            {
+                _metricNameList.Add(AttributeValidator(message.Attribute("Name")));
+            }
+
+        }
+
+        private void CreateMetricValueList(IEnumerable<string> SplitValues)
+        {
+            foreach (var value in SplitValues)
+            {
+                _metricValueList.Add(value);
+            }
+
         }
 
         #endregion

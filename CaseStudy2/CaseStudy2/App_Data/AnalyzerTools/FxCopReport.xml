@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="c:\users\320050765\philipscasestudy-2\casestudy2\casestudy2\app_data\analyzertools\microsoft_fxcop_10.0\Xml\FxCopReport.xsl"?>
+<?xml-stylesheet type="text/xsl" href="c:\users\320067256\philipscasestudy-2\casestudy2\casestudy2\app_data\analyzertools\microsoft_fxcop_10.0\Xml\FxCopReport.xsl"?>
 <FxCopReport Version="10.0">
  <Targets>
   <Target Name="$(ProjectDir)/../../ProjectFiles/StaticAnalyzerTool/StaticAnalyzerTool/StaticAnalyzerTool/bin/Debug/StaticAnalyzerTool.exe">
    <Modules>
     <Module Name="staticanalyzertool.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'StaticAnalyzerTool.exe' with a strong name key.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Mark 'StaticAnalyzerTool.exe' with CLSCompliant(true) because it exposes externally visible types.</Issue>
       </Message>
      </Messages>
@@ -18,7 +18,7 @@
        <Types>
         <Type Name="CoverityAnalyzer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
          <Messages>
-          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
            <Issue Certainty="75" Level="Warning">'CoverityAnalyzer' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
           </Message>
          </Messages>
@@ -27,7 +27,7 @@
          <Members>
           <Member Name="#ProcessOutput()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="FxCopAnalyzer.cs" Line="43">Modify 'FxCopAnalyzer.ProcessOutput()' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
             </Message>
            </Messages>
@@ -36,7 +36,7 @@
            <Accessors>
             <Accessor Name="#get_PropertyName()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
              <Messages>
-              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
                <Issue Certainty="75" Level="Warning" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="FxCopAnalyzer.cs" Line="13">'FxCopAnalyzer.PropertyName.get()' appears to have no upstream public or protected callers.</Issue>
               </Message>
              </Messages>
@@ -49,7 +49,7 @@
          <Members>
           <Member Name="#GenerateFxCopReport(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.Format(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object[])" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="FxCopReport.cs" Line="52">Because the behavior of 'string.Format(string, params object[])' could vary based on the current user's locale settings, replace this call in 'FxCopReport.GenerateFxCopReport(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -58,14 +58,14 @@
         </Type>
         <Type Name="NDependAnalyzer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
          <Messages>
-          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
            <Issue Certainty="75" Level="Warning">'NDependAnalyzer' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#ProcessOutput()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="NDependAnalyzer.cs" Line="31">Modify 'NDependAnalyzer.ProcessOutput()' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
             </Message>
            </Messages>
@@ -76,13 +76,13 @@
          <Members>
           <Member Name="#GenerateNDependReport(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="NDependXmlReport.cs" Line="93">Modify 'NDependXmlReport.GenerateNDependReport(string)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
             </Message>
-            <Message Id="n" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="Breaking">
+            <Message Id="n" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="NDependXmlReport.cs" Line="12">In method 'NDependXmlReport.GenerateNDependReport(string)', correct the spelling of 'n' in parameter name 'nDependXmlOutputPath' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="NDependXmlReport.cs" Line="73">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'NDependXmlReport.GenerateNDependReport(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -93,7 +93,7 @@
          <Members>
           <Member Name="#Main(System.String[])" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="args" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message Id="args" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="Program.cs" Line="16">Parameter 'args' of 'Program.Main(string[])' is never used. Remove the parameter or use it in the method body.</Issue>
             </Message>
            </Messages>
@@ -104,7 +104,7 @@
          <Members>
           <Member Name="#XmlParse(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="XmlParser.cs" Line="27">Modify 'XmlParser.XmlParse(string, string)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
             </Message>
            </Messages>
@@ -115,19 +115,19 @@
          <Members>
           <Member Name="#EditSolutionName(System.String,System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="XmlWriter.cs" Line="24">Modify 'XmlWriter.EditSolutionName(string, string, string, string)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
             </Message>
-            <Message Id="Attribute" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="Breaking">
+            <Message Id="Attribute" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="XmlWriter.cs" Line="13">In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Attribute' in parameter name 'AttributeName' by changing it to 'attribute'.</Issue>
             </Message>
-            <Message Id="Element" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="Breaking">
+            <Message Id="Element" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="XmlWriter.cs" Line="13">In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Element' in parameter name 'ElementName' by changing it to 'element'.</Issue>
             </Message>
-            <Message Id="Solution" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="Breaking">
+            <Message Id="Solution" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="XmlWriter.cs" Line="13">In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Solution' in parameter name 'SolutionPath' by changing it to 'solution'.</Issue>
             </Message>
-            <Message Id="Xml" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-16 05:32:39Z" FixCategory="Breaking">
+            <Message Id="Xml" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2019-09-17 05:44:57Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\Users\320050765\StaticAnalysisTool\StaticAnalyzerTool\StaticAnalyzerTool" File="XmlWriter.cs" Line="13">In member 'XmlWriter.EditSolutionName(string, string, string, string)', correct the casing of 'Xml' in parameter name 'XmlPath' by changing it to 'xml'.</Issue>
             </Message>
            </Messages>

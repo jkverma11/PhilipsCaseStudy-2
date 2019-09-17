@@ -9,6 +9,8 @@ using StaticAnalyzerContractsLib;
 using StaticToolsProcessorLib;
 using TextWriterLib;
 using WriterContractsLib;
+using ConsoleLoggerLib;
+using StaticAnalyzerUtilitiesLib;
 
 namespace StaticToolAnalyzerApp
 {
@@ -16,7 +18,7 @@ namespace StaticToolAnalyzerApp
     {
         static void Main(string[] args)
         {
-            string appDataPath = @"C:\\Users\\320050765\\PhilipsCaseStudy-2\\CaseStudy2\\CaseStudy2\\App_Data\\";
+            string appDataPath = @"C:\\Users\\320067256\\PhilipsCaseStudy-2\\CaseStudy2\\CaseStudy2\\App_Data\\";
             string fxCopOutputFilePath = appDataPath + @"AnalyzerTools\\FxCopReport.xml";
             string fxCopExePath = appDataPath + @"AnalyzerTools\\Microsoft_Fxcop_10.0\\FxCopCmd.exe";
             string fxCopRulesFilePath = appDataPath + "AnalyzerTools\\Microsoft_Fxcop_10.0\\common_fx_cop_file.FxCop";
@@ -43,11 +45,14 @@ namespace StaticToolAnalyzerApp
                 }
             };
 
-            IStaticAnalyzers fxCopAnalyzer = new FxCopAnalyzer(userFilePath);
-            IStaticAnalyzers nDependAnalyzer = new NDependAnalyzer(userFilePath);
-            IReader fxCopReader = new FxCopReader();
-            IReader nDependReader = new NDependReader();
-            IReportWriter textWriter = new TextReportWriter(analyzerOutputFile);
+           
+
+            IStaticAnalyzers fxCopAnalyzer = new FxCopAnalyzer(userFilePath,new StaticAnalyzerUtilities(new ConsoleLogger()));
+            
+            IStaticAnalyzers nDependAnalyzer = new NDependAnalyzer(userFilePath, new StaticAnalyzerUtilities(new ConsoleLogger()));
+            IReader fxCopReader = new FxCopReader(new ConsoleLogger());
+            IReader nDependReader = new NDependReader(new ConsoleLogger());
+            IReportWriter textWriter = new TextReportWriter(analyzerOutputFile,new ConsoleLogger());
 
             #region  Analyzers and Readers List
 

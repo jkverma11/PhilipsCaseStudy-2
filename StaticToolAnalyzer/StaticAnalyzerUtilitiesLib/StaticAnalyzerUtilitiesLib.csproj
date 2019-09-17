@@ -44,6 +44,16 @@
     <Compile Include="StaticAnalyzerUtilities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoggersContractLib\LoggersContractLib.csproj">
+      <Project>{47c6039a-50b1-4ad2-8772-a7053cc6c2ae}</Project>
+      <Name>LoggersContractLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticAnalyzerUtilitiesContractsLib\StaticAnalyzerUtilitiesContractsLib.csproj">
+      <Project>{d258b6aa-fb0c-4314-bf4c-808ae74dca8a}</Project>
+      <Name>StaticAnalyzerUtilitiesContractsLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

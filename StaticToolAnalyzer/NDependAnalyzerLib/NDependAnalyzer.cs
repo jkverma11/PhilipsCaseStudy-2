@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using StaticAnalyzerContractsLib;
 using AnalyzersDataLib;
 using StaticAnalyzerUtilitiesLib;
+using StaticAnalyzerUtilitiesContractsLib;
 
 namespace NDependAnalyzerLib
 {
@@ -15,6 +16,7 @@ namespace NDependAnalyzerLib
         #region private Fields
 
         private readonly string _userFilePath;
+        private StaticAnalyzerUtilitiesContractsLib.IStaticAnalyzerUtilities _staticAnalyzerUtility;
 
         #endregion
 
@@ -27,9 +29,10 @@ namespace NDependAnalyzerLib
 
         #region Initializer
 
-        public NDependAnalyzer(string userFilePath)
+        public NDependAnalyzer(string userFilePath, IStaticAnalyzerUtilities StaticAnalyzerUtility)
         {
             _userFilePath = userFilePath;
+            this._staticAnalyzerUtility = StaticAnalyzerUtility;
         }
 
         #endregion
@@ -39,10 +42,10 @@ namespace NDependAnalyzerLib
         public bool ProcessInput()
         {
             bool successStatus = false;
-            List<string> assembliesList = StaticAnalyzerUtilities.GetPaths(_userFilePath, "*.sln");
+            List<string> assembliesList = _staticAnalyzerUtility.GetPaths(_userFilePath, "*.sln");
             if (assembliesList.Count > 0)
             {
-                successStatus = StaticAnalyzerUtilities.ChangeSolutionPath(AnalyzersData.RuleFilePath, assembliesList, "IDEFiles", "IDEFile", "FilePath");
+                successStatus = _staticAnalyzerUtility.ChangeSolutionPath(AnalyzersData.RuleFilePath, assembliesList, "IDEFiles", "IDEFile", "FilePath");
             }
             return successStatus;
         }
@@ -51,7 +54,7 @@ namespace NDependAnalyzerLib
         {
             string arguments = AnalyzersData.RuleFilePath + @" /LogTrendMetrics /OutDir " + AnalyzersData.OutputFilePath;
             bool successStatus =
-                StaticAnalyzerUtilities.RunAnalyzerProcess(arguments, AnalyzersData.ExePath, ProcessWindowStyle.Hidden);
+                _staticAnalyzerUtility.RunAnalyzerProcess(arguments, AnalyzersData.ExePath, ProcessWindowStyle.Hidden);
             return successStatus;
         }
 

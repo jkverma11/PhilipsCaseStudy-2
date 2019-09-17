@@ -2,7 +2,7 @@
 <NDepend AppName="sleepThread" Platform="DotNet" FileWrittenByProductVersion="2019.2.6.9270">
   <OutputDir KeepXmlFiles="False">C:\Users\320050765\StaticAnalysisTool\XmlOutputs\NDependOutput</OutputDir>
   <IDEFiles>
-    <IDEFile FilePath="C:\\Users\\320050765\\PhilipsCaseStudy-2\\CaseStudy2\\CaseStudy2\\App_Data\\ProjectFiles\StaticAnalyzerTool\StaticAnalyzerTool\StaticAnalyzerTool.sln" Filters="-test" Configuration="DEBUG|AnyCPU" />
+    <IDEFile FilePath="C:\\Users\\320067256\\PhilipsCaseStudy-2\\CaseStudy2\\CaseStudy2\\App_Data\\ProjectFiles\StaticAnalyzerTool\StaticAnalyzerTool\StaticAnalyzerTool.sln" Filters="-test" Configuration="DEBUG|AnyCPU" />
   </IDEFiles>
   <Assemblies />
   <FrameworkAssemblies />

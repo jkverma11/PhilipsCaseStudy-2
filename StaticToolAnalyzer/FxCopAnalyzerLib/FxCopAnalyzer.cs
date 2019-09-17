@@ -4,6 +4,7 @@ using StaticAnalyzerContractsLib;
 using StaticAnalyzerUtilitiesLib;
 using System;
 using AnalyzersDataLib;
+using StaticAnalyzerUtilitiesContractsLib;
 
 namespace FxCopAnalyzerLib
 {
@@ -11,6 +12,7 @@ namespace FxCopAnalyzerLib
     {
         #region Private Fields
         private readonly string _userFilePath;
+        private IStaticAnalyzerUtilities _staticAnalyzerUtilities;
 
         public string AnalyzerName { get; } = "FxCop";
         public AnalyzersDataModel AnalyzersData { get; set; }
@@ -18,23 +20,30 @@ namespace FxCopAnalyzerLib
         #endregion
 
         #region Initialyzer
-        public FxCopAnalyzer(string userFilePath)
+        public FxCopAnalyzer(string userFilePath,IStaticAnalyzerUtilities StaticAnalyzerUtilities)
         {
             
             _userFilePath = userFilePath;
+            this._staticAnalyzerUtilities = StaticAnalyzerUtilities;
         }
         #endregion
 
+        //#region Property
+        //public IStaticAnalyzerUtilities StaticAnalyzerUtilities
+        //{ get { return this._staticAnalyzerUtilities; }
+        //    set { this._staticAnalyzerUtilities = value; } }
+        //#endregion
+
         #region Public Methods
 
-       public bool ProcessInput()
+        public bool ProcessInput()
 
         {
             bool successStatus = false;
-            List<string> assembliesList = StaticAnalyzerUtilities.GetPaths(_userFilePath, "*.exe");
+            List<string> assembliesList = _staticAnalyzerUtilities.GetPaths(_userFilePath, "*.exe");
             if (assembliesList.Count > 0)
             {
-                successStatus = StaticAnalyzerUtilities.ChangeSolutionPath(AnalyzersData.RuleFilePath, assembliesList, "Targets", "Target", "Name");
+                successStatus = _staticAnalyzerUtilities.ChangeSolutionPath(AnalyzersData.RuleFilePath, assembliesList, "Targets", "Target", "Name");
             }
             return successStatus;
         }
@@ -43,7 +52,7 @@ namespace FxCopAnalyzerLib
         {
             string arguments = @"/p:" + AnalyzersData.RuleFilePath + @" /out:" + AnalyzersData.OutputFilePath;
             bool successStatus =
-                StaticAnalyzerUtilities.RunAnalyzerProcess(arguments, AnalyzersData.ExePath, ProcessWindowStyle.Hidden);
+                _staticAnalyzerUtilities.RunAnalyzerProcess(arguments, AnalyzersData.ExePath, ProcessWindowStyle.Hidden);
             return successStatus;
         }
 

@@ -55,6 +55,10 @@
       <Project>{72e4d843-15dd-4b10-91db-84ccf3af8140}</Project>
       <Name>AnalyzersDataLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ConsoleLoggerLib\ConsoleLoggerLib.csproj">
+      <Project>{d6063cb7-5ba3-494c-91f5-2558b190d7a3}</Project>
+      <Name>ConsoleLoggerLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataModelsLib\DataModelsLib.csproj">
       <Project>{cf453928-4aee-47f7-9418-061c3e6022ea}</Project>
       <Name>DataModelsLib</Name>
@@ -66,6 +70,10 @@
     <ProjectReference Include="..\FxCopReaderLib\FxCopReaderLib.csproj">
       <Project>{bb82de03-f4b2-4b07-94c7-ee097b6cd63b}</Project>
       <Name>FxCopReaderLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoggersContractLib\LoggersContractLib.csproj">
+      <Project>{47c6039a-50b1-4ad2-8772-a7053cc6c2ae}</Project>
+      <Name>LoggersContractLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\NDependAnalyzerLib\NDependAnalyzerLib.csproj">
       <Project>{713eab91-e849-4693-a814-f269fc05b08f}</Project>
@@ -82,6 +90,10 @@
     <ProjectReference Include="..\StaticAnalyzerContractsLib\StaticAnalyzerContractsLib.csproj">
       <Project>{565e5a7b-9beb-4538-bdac-d00e6ababd8d}</Project>
       <Name>StaticAnalyzerContractsLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StaticAnalyzerUtilitiesContractsLib\StaticAnalyzerUtilitiesContractsLib.csproj">
+      <Project>{d258b6aa-fb0c-4314-bf4c-808ae74dca8a}</Project>
+      <Name>StaticAnalyzerUtilitiesContractsLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\StaticAnalyzerUtilitiesLib\StaticAnalyzerUtilitiesLib.csproj">
       <Project>{e6ec59ce-e098-45ed-83ce-d20d3f5a1fa2}</Project>

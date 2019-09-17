@@ -21,7 +21,7 @@
     <IgnoreGeneratedCode>False</IgnoreGeneratedCode>
   </ProjectOptions>
   <Targets>
-    <Target Name="C:\\Users\\320050765\\PhilipsCaseStudy-2\\CaseStudy2\\CaseStudy2\\App_Data\\ProjectFiles\StaticAnalyzerTool\StaticAnalyzerTool\StaticAnalyzerTool\bin\Debug\StaticAnalyzerTool.exe" Analyze="True" AnalyzeAllChildren="True" />
+    <Target Name="C:\\Users\\320067256\\PhilipsCaseStudy-2\\CaseStudy2\\CaseStudy2\\App_Data\\ProjectFiles\StaticAnalyzerTool\StaticAnalyzerTool\StaticAnalyzerTool\bin\Debug\StaticAnalyzerTool.exe" Analyze="True" AnalyzeAllChildren="True" />
   </Targets>
   <Rules>
     <RuleFiles>
