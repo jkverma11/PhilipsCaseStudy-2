@@ -1,1 +1,1 @@
-###### StaticAnalyzerTools-WebService######
+###### StaticAnalyzerTools-WebService
