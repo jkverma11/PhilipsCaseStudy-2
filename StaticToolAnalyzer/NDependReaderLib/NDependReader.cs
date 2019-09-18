@@ -44,6 +44,11 @@ namespace NDependReaderLib
                     StaticAnalyzerTool = "NDepend",
                     ErrorMsg = _metricNameList[i],
                     ErrorCount = _metricValueList[i],
+                    ErrorCertainty = "NA",
+                    ErrorType = "NA",
+                    FileName = "NA",
+                    FilePath = "NA",
+                    LineNumber = "NA",
                     TimeStamp = DateTime.Now
                 };
                 _dataModels.Add(dataModelTemp);
@@ -95,9 +100,9 @@ namespace NDependReaderLib
             return splitValues.ToList();
         }
 
-        private static string AttributeValidator(XAttribute attribute)
+        private string AttributeValidator(XAttribute attribute)
         {
-            var value = "";
+            var value = "NA";
             if (attribute != null)
             {
                 value = attribute.Value;

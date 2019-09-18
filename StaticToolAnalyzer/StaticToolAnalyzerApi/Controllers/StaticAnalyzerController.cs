@@ -30,7 +30,8 @@ namespace StaticToolAnalyzerApi.Controllers
     public class StaticAnalyzerController : ControllerBase
     {
         private readonly string _dataPath = Directory.GetCurrentDirectory() + "\\App_Data\\";
-        private string _outputReportPath = Directory.GetCurrentDirectory()+ "\\App_Data\\AnalyzerOutput.csv";
+        private readonly string _outputReportPath = Directory.GetCurrentDirectory()+ "\\App_Data\\AnalyzerOutput.txt";
+        private bool _successStatus=false;
 
        // GET api/values
         [HttpGet]
@@ -50,23 +51,30 @@ namespace StaticToolAnalyzerApi.Controllers
         [HttpPost]
         public void ExtractZipFile([FromBody] string zipFilePath)
         {
+            
             string extractedFilePath = zipFilePath.Substring(0, zipFilePath.IndexOf(".zip", StringComparison.Ordinal));
-            if (Directory.Exists(extractedFilePath))
-            {
-                Directory.Delete(extractedFilePath, true);
-            }
-            ZipFile.ExtractToDirectory(zipFilePath, extractedFilePath);
 
-            _outputReportPath = StaticAnalyzerProcessor(extractedFilePath, _dataPath);
+            if (System.IO.File.Exists(zipFilePath))
+            {
+                if (Directory.Exists(extractedFilePath))
+                {
+                    Directory.Delete(extractedFilePath, true);
+                }
+
+                ZipFile.ExtractToDirectory(zipFilePath, extractedFilePath);
+
+
+                _successStatus = StaticAnalyzerProcessor(extractedFilePath, _dataPath);
+            }
         }
 
 
-        private string StaticAnalyzerProcessor(string extractedFilePath, string dataPath)
+        private bool StaticAnalyzerProcessor(string extractedFilePath, string dataPath)
         {
             string fxCopOutputFilePath = dataPath + "AnalyzerTools\\FxCopReport.xml";
             string fxCopExePath = dataPath + "AnalyzerTools\\Microsoft_Fxcop_10.0\\FxCopCmd.exe";
             string fxCopRulesFilePath = dataPath + "AnalyzerTools\\Microsoft_Fxcop_10.0\\common_fx_cop_file.FxCop";
-            string analyzerOutputFile = dataPath + "AnalyzerOutput.CSV";
+            string analyzerOutputFile = _outputReportPath;
             string nDependOutputFilePath = dataPath + "AnalyzerTools\\NDependOutput";
             string nDependExePath = dataPath + "AnalyzerTools\\NDepend_2019.2.7.9280\\NDepend.Console.exe";
             string nDependRulesFilePath = dataPath + "AnalyzerTools\\NDepend_2019.2.7.9280\\common.ndproj";
@@ -113,7 +121,7 @@ namespace StaticToolAnalyzerApi.Controllers
             bool successStatus = manager.Process();
 
             #endregion
-            return analyzerOutputFile;
+            return successStatus;
         }
     }
 }

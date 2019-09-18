@@ -92,7 +92,7 @@ namespace TextWriterLib
         {
             foreach (var property in properties)
             {
-                _secondaryStringBuilder.Append(property.GetValue(dataModel) + ",");
+                _secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
             }
         }
 
@@ -107,7 +107,7 @@ namespace TextWriterLib
         {
             foreach (var property in properties)
             {
-                _secondaryStringBuilder.Append(property.Name + ",");
+                _secondaryStringBuilder.Append(property.Name + "\t");
             }
 
         }

@@ -48,10 +48,10 @@ namespace FxCopReaderLib
         {
             if(obj!=null)
             {
-                return obj.ToString();
+                return obj.Value.ToString();
 
             }
-            return string.Empty;
+            return "NA";
 
         }
 
