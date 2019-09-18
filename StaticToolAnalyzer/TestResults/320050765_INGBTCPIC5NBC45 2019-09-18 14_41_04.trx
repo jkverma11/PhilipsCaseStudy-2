@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="32314154-9a8a-4643-80f7-16bfad7f4dbf" name="320050765@INGBTCPIC5NBC45 2019-09-18 14:41:04" runUser="CODE1\320050765" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7e44159d-9d12-4a72-929f-5f32590e17ef">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320050765_INGBTCPIC5NBC45 2019-09-18 14_41_04" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-18T14:41:04.2922356+05:30" queuing="2019-09-18T14:41:04.7190906+05:30" start="2019-09-18T14:41:04.8128477+05:30" finish="2019-09-18T14:41:05.1127672+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_UserFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_False" storage="c:\users\320050765\philipscasestudy-2\statictoolanalyzer\ndependanalyzerlib.tests\bin\debug\ndependanalyzerlib.tests.dll" id="3da76880-2e2f-001f-a135-1a74c898f811">
+      <Execution id="cf5b93b0-8f62-4745-8b63-18d577ed0143" />
+      <TestMethod codeBase="C:/Users/320050765/PhilipsCaseStudy-2/StaticToolAnalyzer/NDependAnalyzerLib.Tests/bin/Debug/NDependAnalyzerLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NDependAnalyzerLib.Tests.NDepenedAnalyzerUnitTests, NDependAnalyzerLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_UserFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_False" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3da76880-2e2f-001f-a135-1a74c898f811" executionId="cf5b93b0-8f62-4745-8b63-18d577ed0143" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cf5b93b0-8f62-4745-8b63-18d577ed0143" testId="3da76880-2e2f-001f-a135-1a74c898f811" testName="Given_UserFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_False" computerName="INGBTCPIC5NBC45" duration="00:00:00.0142991" startTime="2019-09-18T14:41:04.8377436+05:30" endTime="2019-09-18T14:41:05.0738625+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf5b93b0-8f62-4745-8b63-18d577ed0143">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6e91e764-f0fc-4ec8-9621-ac14c9dcf945" name="320050765@INGBTCPIC5NBC45 2019-09-18 15:17:31" runUser="CODE1\320050765" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6457925d-dd0a-445e-b4bd-cd2f00f07c06">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320050765_INGBTCPIC5NBC45 2019-09-18 15_17_31" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-18T15:17:31.0675720+05:30" queuing="2019-09-18T15:17:31.4972184+05:30" start="2019-09-18T15:17:31.5859867+05:30" finish="2019-09-18T15:17:31.9350132+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_UserFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_False" storage="c:\users\320050765\philipscasestudy-2\statictoolanalyzer\fxcopanalyzerlib.tests\bin\debug\fxcopanalyzerlib.tests.dll" id="8e80c30e-e078-8ee5-1c4b-8fa918599d03">
+      <Execution id="497c3c44-fa6d-4dcc-8580-76426da17b13" />
+      <TestMethod codeBase="C:/Users/320050765/PhilipsCaseStudy-2/StaticToolAnalyzer/FxCopAnalyzerLib.Tests/bin/Debug/FxCopAnalyzerLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FxCopAnalyzerLib.Tests.FxCopAnalyzerUnitTest, FxCopAnalyzerLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_UserFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_False" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8e80c30e-e078-8ee5-1c4b-8fa918599d03" executionId="497c3c44-fa6d-4dcc-8580-76426da17b13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="497c3c44-fa6d-4dcc-8580-76426da17b13" testId="8e80c30e-e078-8ee5-1c4b-8fa918599d03" testName="Given_UserFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_False" computerName="INGBTCPIC5NBC45" duration="00:00:00.0240818" startTime="2019-09-18T15:17:31.6129520+05:30" endTime="2019-09-18T15:17:31.8761692+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="497c3c44-fa6d-4dcc-8580-76426da17b13">
+    </UnitTestResult>
+  </Results>
+</TestRun>

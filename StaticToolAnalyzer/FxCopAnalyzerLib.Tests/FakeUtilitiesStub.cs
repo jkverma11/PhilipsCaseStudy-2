@@ -8,7 +8,7 @@ using StaticAnalyzerUtilitiesContractsLib;
 
 namespace FxCopAnalyzerLib.Tests
 {
-    class FakeUtilitiesStub : IStaticAnalyzerUtilities
+    class FakeUtilitiesStub: IStaticAnalyzerUtilities
     {
         public bool RunAnalyzerProcess(string arguments, string analyzerExePath, ProcessWindowStyle windowStyle)
         {
@@ -35,6 +35,5 @@ namespace FxCopAnalyzerLib.Tests
 
             return pathsList;
         }
-
     }
 }

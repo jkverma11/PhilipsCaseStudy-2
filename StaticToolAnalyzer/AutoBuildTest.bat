@@ -26,13 +26,11 @@ pause
 "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" /testContainer:"%BAT_PATH%TextWriterLib.Tests\bin\Debug\TextWriterLib.Tests.dll" /test:Given_OutputFilePath_WhenWriteIsInvokedAndFileIsCreated_ThenSuccessIsExpected
  
 
-::pause
+pause
  
-::set "SIM_PATH=C:\Users\320052122\Downloads\simian-2.5.10.tar\simian-2.5.10\bin"
+set "SIM_PATH=D:\Softwares\Simian\Simian\bin\simian-2.5.10.exe"
 
-::cd "%SIM_PATH%"
-
-::simian-2.5.10.exe "%BAT_PATH%\**\*.cs"  
+"%SIM_PATH%" "%BAT_PATH%\**\*.cs"  
 
 pause
 

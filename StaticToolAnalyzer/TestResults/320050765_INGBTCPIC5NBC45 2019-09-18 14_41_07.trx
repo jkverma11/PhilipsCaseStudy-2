@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a4c9cb3f-5343-4104-960d-94fad1b3714d" name="320050765@INGBTCPIC5NBC45 2019-09-18 14:41:07" runUser="CODE1\320050765" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="89efdfce-0f76-4998-a057-152222848057">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320050765_INGBTCPIC5NBC45 2019-09-18 14_41_07" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-18T14:41:07.2772137+05:30" queuing="2019-09-18T14:41:07.6814340+05:30" start="2019-09-18T14:41:07.7671736+05:30" finish="2019-09-18T14:41:08.1236858+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_WrongAnalyzerExePath_When_RunAnalyzerProcess_Then_StatusIsFalse" storage="c:\users\320050765\philipscasestudy-2\statictoolanalyzer\staticanalyzerutilitieslib.tests\bin\debug\staticanalyzerutilitieslib.tests.dll" id="fbe51a71-38f8-3cdf-45c8-19c2898e372b">
+      <Execution id="b47f4974-9a8c-4b17-b090-2667431552de" />
+      <TestMethod codeBase="C:/Users/320050765/PhilipsCaseStudy-2/StaticToolAnalyzer/StaticAnalyzerUtilitiesLib.Tests/bin/Debug/StaticAnalyzerUtilitiesLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StaticAnalyzerUtilitiesLib.Tests.StaticAnalyzerUtilitiesUnitTest, StaticAnalyzerUtilitiesLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_WrongAnalyzerExePath_When_RunAnalyzerProcess_Then_StatusIsFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fbe51a71-38f8-3cdf-45c8-19c2898e372b" executionId="b47f4974-9a8c-4b17-b090-2667431552de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b47f4974-9a8c-4b17-b090-2667431552de" testId="fbe51a71-38f8-3cdf-45c8-19c2898e372b" testName="Given_WrongAnalyzerExePath_When_RunAnalyzerProcess_Then_StatusIsFalse" computerName="INGBTCPIC5NBC45" duration="00:00:00.0701073" startTime="2019-09-18T14:41:07.7941006+05:30" endTime="2019-09-18T14:41:08.0817690+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b47f4974-9a8c-4b17-b090-2667431552de">
+      <Output>
+        <StdOut>System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at StaticAnalyzerUtilitiesLib.StaticAnalyzerUtilities.RunAnalyzerProcess(String arguments, String analyzerExePath, ProcessWindowStyle windowStyle) in C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\StaticAnalyzerUtilities.cs:line 39</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

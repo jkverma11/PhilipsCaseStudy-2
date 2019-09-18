@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="89c1527b-e847-4a3e-8576-9c89795a9cc7" name="320050765@INGBTCPIC5NBC45 2019-09-18 15:17:38" runUser="CODE1\320050765" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="ff31dcbb-8fe9-4106-8a27-86927b3c792e">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="320050765_INGBTCPIC5NBC45 2019-09-18 15_17_38" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2019-09-18T15:17:38.7480399+05:30" queuing="2019-09-18T15:17:39.1627599+05:30" start="2019-09-18T15:17:39.2524909+05:30" finish="2019-09-18T15:17:39.5724657+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Given_Correct_AnalyzerData_When_Process_Method_Invoked_Expected_Value_IsTrue" storage="c:\users\320050765\philipscasestudy-2\statictoolanalyzer\statictoolsprocessorlib.tests\bin\debug\statictoolsprocessorlib.tests.dll" id="81813d10-b8d4-88c3-edf4-50c27c3f8317">
+      <Execution id="2f9e7bae-ae24-4da2-a698-53cebcf3bd2c" />
+      <TestMethod codeBase="C:/Users/320050765/PhilipsCaseStudy-2/StaticToolAnalyzer/StaticToolsProcessorLib.Tests/bin/Debug/StaticToolsProcessorLib.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StaticToolsProcessorLib.Tests.StaticToolsProcessorUnitTests, StaticToolsProcessorLib.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Given_Correct_AnalyzerData_When_Process_Method_Invoked_Expected_Value_IsTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="81813d10-b8d4-88c3-edf4-50c27c3f8317" executionId="2f9e7bae-ae24-4da2-a698-53cebcf3bd2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2f9e7bae-ae24-4da2-a698-53cebcf3bd2c" testId="81813d10-b8d4-88c3-edf4-50c27c3f8317" testName="Given_Correct_AnalyzerData_When_Process_Method_Invoked_Expected_Value_IsTrue" computerName="INGBTCPIC5NBC45" duration="00:00:00.0135314" startTime="2019-09-18T15:17:39.2784577+05:30" endTime="2019-09-18T15:17:39.5308669+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f9e7bae-ae24-4da2-a698-53cebcf3bd2c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

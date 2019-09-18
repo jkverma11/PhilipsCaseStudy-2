@@ -18,10 +18,8 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\obj\Debug\FxCopAnalyzerLib.Tests.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.Tests.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.Tests.pdb
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\AnalyzersDataLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerContractsLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerUtilitiesContractsLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\FxCopAnalyzerLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\AnalyzersDataLib.pdb
@@ -30,3 +28,5 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\obj\Debug\FxCopAnalyzerLib.Tests.csprojAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\obj\Debug\FxCopAnalyzerLib.Tests.csproj.CoreCompileInputs.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\obj\Debug\FxCopAnalyzerLib.Tests.csproj.CopyComplete
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib.Tests\bin\Debug\StaticAnalyzerContractsLib.dll
