@@ -18,6 +18,8 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLi
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\bin\Debug\ReportReaderContractsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\bin\Debug\DataModelsLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\bin\Debug\DataModelsLib.pdb
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\obj\Debug\ReportReaderContractsLib.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\obj\Debug\ReportReaderContractsLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\obj\Debug\ReportReaderContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\obj\Debug\ReportReaderContractsLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\obj\Debug\ReportReaderContractsLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ReportReaderContractsLib\obj\Debug\ReportReaderContractsLib.csproj.CopyComplete

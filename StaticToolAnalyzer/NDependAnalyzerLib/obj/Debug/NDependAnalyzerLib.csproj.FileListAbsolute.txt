@@ -6,7 +6,6 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\AnalyzersDataLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerContractsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesLib.pdb
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\NDependAnalyzerLib.dll
@@ -24,3 +23,10 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\LoggersContractLib.dll
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib\obj\Debug\NDependAnalyzerLib.csproj.CopyComplete

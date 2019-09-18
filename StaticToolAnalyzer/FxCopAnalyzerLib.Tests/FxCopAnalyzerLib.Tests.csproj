@@ -36,6 +36,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AnalyzersDataLib">
+      <HintPath>..\StaticToolAnalyzerApp\bin\Debug\AnalyzersDataLib.dll</HintPath>
+    </Reference>
+    <Reference Include="StaticAnalyzerContractsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\StaticToolAnalyzerApp\bin\Debug\StaticAnalyzerContractsLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -51,6 +58,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="FakeUtilitiesStub.cs" />
     <Compile Include="FxCopAnalyzerUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,18 +67,15 @@
       <Project>{e689bba1-da7b-4d0b-903a-2997f0bd1d34}</Project>
       <Name>FxCopAnalyzerLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StaticAnalyzerConfigurationsContractsLib\StaticAnalyzerConfigurationsContractsLib.csproj">
-      <Project>{af425cad-7331-48c2-ad00-4aed870c2366}</Project>
-      <Name>StaticAnalyzerConfigurationsContractsLib</Name>
+    <ProjectReference Include="..\StaticAnalyzerUtilitiesContractsLib\StaticAnalyzerUtilitiesContractsLib.csproj">
+      <Project>{d258b6aa-fb0c-4314-bf4c-808ae74dca8a}</Project>
+      <Name>StaticAnalyzerUtilitiesContractsLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StaticAnalyzerUtilitiesLib\StaticAnalyzerUtilitiesLib.csproj">
-      <Project>{e6ec59ce-e098-45ed-83ce-d20d3f5a1fa2}</Project>
-      <Name>StaticAnalyzerUtilitiesLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StaticAnalyzerXmlConfigurationsLib\StaticAnalyzerXmlConfigurationsLib.csproj">
-      <Project>{74f0f4a6-b839-447b-a745-2ce3f9b2c0d9}</Project>
-      <Name>StaticAnalyzerXmlConfigurationsLib</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\StaticToolAnalyzerApp\bin\Debug\AnalyzersDataLib.dll" />
+    <Analyzer Include="..\StaticToolAnalyzerApp\bin\Debug\StaticAnalyzerContractsLib.dll" />
+    <Analyzer Include="..\StaticToolAnalyzerApp\bin\Debug\StaticAnalyzerUtilitiesContractsLib.dll" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

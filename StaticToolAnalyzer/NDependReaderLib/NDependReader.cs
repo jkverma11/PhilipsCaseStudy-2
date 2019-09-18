@@ -14,7 +14,7 @@ namespace NDependReaderLib
         private readonly List<string> _metricNameList = new List<string>();
         private readonly List< string> _metricValueList = new List<string>();
         private readonly List<DataModel> _dataModels= new List<DataModel>();
-        private ILogger _loggerRef;
+        private readonly ILogger _loggerRef;
         #endregion
 
         #region Properties
@@ -24,9 +24,9 @@ namespace NDependReaderLib
         #endregion
 
         #region Initializer
-        public NDependReader(ILogger LoggerRef)
+        public NDependReader(ILogger loggerRef)
         {
-            this._loggerRef = LoggerRef;
+            this._loggerRef = loggerRef;
         }
         #endregion
 
@@ -52,8 +52,9 @@ namespace NDependReaderLib
             return _dataModels;
         }
 
-        public void ReadMetrics(string filePath)
+        private bool ReadMetrics(string filePath)
         {
+            bool flag = false;
             try
             {
                 var xmlDoc = XElement.Load(filePath);
@@ -64,12 +65,14 @@ namespace NDependReaderLib
                 var metricValues = AttributeValidator(metricValueElements?.Attribute("V"));
                 var splitValues = SplitList(metricValues, '|');
                 CreateMetricValueList(splitValues);
-               
-            }
+                flag = true;
+             }
             catch (Exception exception)
             {
                 this._loggerRef.Write(exception);
             }
+
+            return flag;
         }
         #endregion
 

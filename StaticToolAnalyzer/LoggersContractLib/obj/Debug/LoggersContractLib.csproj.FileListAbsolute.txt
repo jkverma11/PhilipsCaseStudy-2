@@ -2,3 +2,9 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\Debug\LoggersContractLib.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Debug\LoggersContractLib.dll
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\Debug\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Debug\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Debug\LoggersContractLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Debug\LoggersContractLib.csproj.CoreCompileInputs.cache

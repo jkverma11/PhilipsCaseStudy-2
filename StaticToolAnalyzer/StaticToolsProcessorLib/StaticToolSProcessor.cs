@@ -35,32 +35,27 @@ namespace StaticToolsProcessorLib
         {
             bool successStatus = false;
             successStatus = GetAnalyzerToProcess();
-            successStatus = GetReadAndWriteAnalyzerReport(successStatus);
+            successStatus = successStatus && GetReadAndWriteAnalyzerReport();
             return successStatus;
         }
 
         private bool GetAnalyzerToProcess()
         {
-            var successStatus1 = false;
             var successStatus = true;
             foreach (var analyzer in _staticAnalyzers)
             {
-                //_analyzersData = _analyzersDataList.Find(x => x.Name.Contains(analyzer.AnalyzerName));
-                //analyzer.AnalyzersData = _analyzersData;
-                successStatus1 = AnalyzerProcess(analyzer);
+                var successStatus1 = AnalyzerProcess(analyzer);
                 successStatus = successStatus1 && successStatus;
             }
             return successStatus;
         }
 
-        private bool GetReadAndWriteAnalyzerReport(bool successStatus)
+        private bool GetReadAndWriteAnalyzerReport()
         {
+            bool successStatus = false;
             foreach (var reportReader in _reportReaders)
             {
-                //_analyzersData = _analyzersDataList.Find(x => x.Name.Contains(reportReader.Name));
-                //var dataModelsList = reportReader.Read(_analyzersData.OutputFilePath);
-                successStatus = ReadAndWriteAnalyzerReport(successStatus, reportReader);
-                
+                successStatus = ReadAndWriteAnalyzerReport(reportReader);
             }
             return successStatus;
         }
@@ -69,18 +64,24 @@ namespace StaticToolsProcessorLib
         {
             var successStatus = false;
             _analyzersData = _analyzersDataList.Find(x => x.Name.Contains(analyzer.AnalyzerName));
-            analyzer.AnalyzersData = _analyzersData;
-            successStatus = analyzer.ProcessInput() && analyzer.ProcessOutput();
+            if (_analyzersData != null)
+            {
+                analyzer.AnalyzersData = _analyzersData;
+                successStatus = analyzer.ProcessInput() && analyzer.ProcessOutput();
+            }
             return successStatus;
         }
 
-        private bool ReadAndWriteAnalyzerReport(bool successStatus, IReader reportReader)
+        private bool ReadAndWriteAnalyzerReport(IReader reportReader)
         {
+            bool successStatus = false;
             _analyzersData = _analyzersDataList.Find(x => x.Name.Contains(reportReader.Name));
-            var dataModelsList = reportReader.Read(_analyzersData.OutputFilePath);
-            successStatus = successStatus && _writer.Write(dataModelsList);
+            if (_analyzersData != null)
+            {
+                var dataModelsList = reportReader.Read(_analyzersData.OutputFilePath);
+                successStatus = _writer.Write(dataModelsList);
+            }
             return successStatus;
-
         }
         
         #endregion

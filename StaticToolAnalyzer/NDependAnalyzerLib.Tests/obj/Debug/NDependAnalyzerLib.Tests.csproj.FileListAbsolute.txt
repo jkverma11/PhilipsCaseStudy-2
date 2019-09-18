@@ -1,0 +1,16 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\NDependAnalyzerLib.Tests.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\NDependAnalyzerLib.Tests.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\NDependAnalyzerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\StaticAnalyzerContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\StaticAnalyzerUtilitiesContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\AnalyzersDataLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\NDependAnalyzerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\StaticAnalyzerContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\obj\Debug\NDependAnalyzerLib.Tests.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\obj\Debug\NDependAnalyzerLib.Tests.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\obj\Debug\NDependAnalyzerLib.Tests.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\obj\Debug\NDependAnalyzerLib.Tests.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependAnalyzerLib.Tests\obj\Debug\NDependAnalyzerLib.Tests.csproj.CopyComplete

@@ -25,7 +25,6 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\b
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\StaticToolsProcessorLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\TextWriterLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\WriterContractsLib.pdb
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\obj\Debug\StaticToolAnalyzerApp.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\obj\Debug\StaticToolAnalyzerApp.exe
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\obj\Debug\StaticToolAnalyzerApp.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\StaticToolAnalyzerApp.exe.config
@@ -64,3 +63,12 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\b
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\ConsoleLoggerLib.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\LoggersContractLib.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\ConsoleLoggerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\StaticAnalyzerUtilitiesContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\ConsoleLoggerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\obj\Debug\StaticToolAnalyzerApp.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\obj\Debug\StaticToolAnalyzerApp.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolAnalyzerApp\obj\Debug\StaticToolAnalyzerApp.csproj.CopyComplete

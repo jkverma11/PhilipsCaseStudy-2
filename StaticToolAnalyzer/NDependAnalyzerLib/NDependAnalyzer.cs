@@ -16,7 +16,7 @@ namespace NDependAnalyzerLib
         #region private Fields
 
         private readonly string _userFilePath;
-        private StaticAnalyzerUtilitiesContractsLib.IStaticAnalyzerUtilities _staticAnalyzerUtility;
+        private readonly StaticAnalyzerUtilitiesContractsLib.IStaticAnalyzerUtilities _staticAnalyzerUtility;
 
         #endregion
 
@@ -29,10 +29,10 @@ namespace NDependAnalyzerLib
 
         #region Initializer
 
-        public NDependAnalyzer(string userFilePath, IStaticAnalyzerUtilities StaticAnalyzerUtility)
+        public NDependAnalyzer(string userFilePath, IStaticAnalyzerUtilities staticAnalyzerUtility)
         {
             _userFilePath = userFilePath;
-            this._staticAnalyzerUtility = StaticAnalyzerUtility;
+            this._staticAnalyzerUtility = staticAnalyzerUtility;
         }
 
         #endregion

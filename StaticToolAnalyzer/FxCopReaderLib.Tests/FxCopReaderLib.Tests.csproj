@@ -53,7 +53,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="FakeReadConfigurationStub.cs" />
+    <Compile Include="FakeLoggerStub.cs" />
     <Compile Include="FxCopReaderUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,13 +66,13 @@
       <Project>{bb82de03-f4b2-4b07-94c7-ee097b6cd63b}</Project>
       <Name>FxCopReaderLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StaticAnalyzerConfigurationsContractsLib\StaticAnalyzerConfigurationsContractsLib.csproj">
-      <Project>{af425cad-7331-48c2-ad00-4aed870c2366}</Project>
-      <Name>StaticAnalyzerConfigurationsContractsLib</Name>
+    <ProjectReference Include="..\LoggersContractLib\LoggersContractLib.csproj">
+      <Project>{47c6039a-50b1-4ad2-8772-a7053cc6c2ae}</Project>
+      <Name>LoggersContractLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StaticAnalyzerXmlConfigurationsLib\StaticAnalyzerXmlConfigurationsLib.csproj">
-      <Project>{74f0f4a6-b839-447b-a745-2ce3f9b2c0d9}</Project>
-      <Name>StaticAnalyzerXmlConfigurationsLib</Name>
+    <ProjectReference Include="..\ReportReaderContractsLib\ReportReaderContractsLib.csproj">
+      <Project>{7f12de8d-d702-4eb1-9286-a66c2efffec3}</Project>
+      <Name>ReportReaderContractsLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

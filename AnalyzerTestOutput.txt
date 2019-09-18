@@ -1,2 +1,0 @@
-StaticAnalyzerTool	ErrorMsg	ErrorType	ErrorCertainty	FilePath	FileName	LineNumber	ErrorCount	
-FxCop	xxx	filenotfound	12	http://google.com	sdf.txt	20	20	

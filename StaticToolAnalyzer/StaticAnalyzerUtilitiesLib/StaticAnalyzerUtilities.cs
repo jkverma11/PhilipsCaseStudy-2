@@ -12,7 +12,7 @@ namespace StaticAnalyzerUtilitiesLib
 
     {
         #region Private fields
-        private LoggersContractLib.ILogger _loggerRef;
+        private readonly LoggersContractLib.ILogger _loggerRef;
         #endregion
 
         #region Properties
@@ -20,9 +20,9 @@ namespace StaticAnalyzerUtilitiesLib
         #endregion
 
         #region Initializer
-        public StaticAnalyzerUtilities(ILogger LoggerRef)
+        public StaticAnalyzerUtilities(ILogger loggerRef)
         {
-            this._loggerRef = LoggerRef;
+            this._loggerRef = loggerRef;
         }
         #endregion
 
@@ -89,7 +89,7 @@ namespace StaticAnalyzerUtilitiesLib
 
         #region Private Methods
 
-        public bool CreateDuplicateNodes(string xmlPath, string node, string element, int count)
+        private bool CreateDuplicateNodes(string xmlPath, string node, string element, int count)
         {
             bool isSuccess = false;
             try

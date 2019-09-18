@@ -5,3 +5,12 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\De
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.csprojResolveAssemblyReference.cache
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.dll
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Debug\ConsoleLoggerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Debug\ConsoleLoggerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Debug\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Debug\ConsoleLoggerLib.csproj.CopyComplete

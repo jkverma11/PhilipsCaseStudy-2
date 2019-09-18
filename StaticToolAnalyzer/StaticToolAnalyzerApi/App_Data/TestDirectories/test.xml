@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FxCopProject Version="10.0" Name="My FxCop Project">
+  <Targets>
+    <Target Name="app.txt" Analyze="True" AnalyzeAllChildren="True" />
+  </Targets>
+</FxCopProject>

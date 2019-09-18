@@ -1,0 +1,16 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\NDependReaderLib.Tests.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\NDependReaderLib.Tests.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\NDependReaderLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\ReportReaderContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\DataModelsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\NDependReaderLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\bin\Debug\ReportReaderContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\obj\Debug\NDependReaderLib.Tests.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\obj\Debug\NDependReaderLib.Tests.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\obj\Debug\NDependReaderLib.Tests.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\obj\Debug\NDependReaderLib.Tests.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib.Tests\obj\Debug\NDependReaderLib.Tests.csproj.CopyComplete

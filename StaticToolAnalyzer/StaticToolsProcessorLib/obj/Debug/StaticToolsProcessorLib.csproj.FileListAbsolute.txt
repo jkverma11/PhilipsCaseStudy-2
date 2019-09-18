@@ -8,7 +8,6 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\ReportReaderContractsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\StaticAnalyzerContractsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\WriterContractsLib.pdb
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\AnalyzersDataLib.dll
@@ -28,3 +27,6 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\AnalyzersDataLib.dll
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\bin\Debug\AnalyzersDataLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticToolsProcessorLib\obj\Debug\StaticToolsProcessorLib.csproj.CopyComplete

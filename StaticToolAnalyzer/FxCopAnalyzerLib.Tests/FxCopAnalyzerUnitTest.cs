@@ -1,7 +1,7 @@
 ﻿using System;
+using AnalyzersDataLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StaticAnalyzerConfigurationsContractsLib;
-using StaticAnalyzerXmlConfigurationsLib;
+using StaticAnalyzerContractsLib;
 
 namespace FxCopAnalyzerLib.Tests
 {
@@ -9,51 +9,34 @@ namespace FxCopAnalyzerLib.Tests
     public class FxCopAnalyzerUnitTest
     {
         [TestMethod]
-        public void Given_FxCopRulesFilePathAndUserCode_When_ProcessInputIsCalled_Then_SuccessStatusIsTrue()
+        public void Given_UserFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_False()
         {
-            var xmlFilePath = @"C:\Users\320067256\PhilipsCaseStudy-2\TestInputExePaths.xml";
-            IStaticAnalyzerConfigurations configFilePath=new StaticAnalyzerXmlConfigurations(xmlFilePath);
-            bool expectedOutcome=new FxCopAnalyzer(configFilePath).ProcessInput();
-            bool actualOutcome = true;
-            Assert.AreEqual(expectedOutcome,actualOutcome);
+            IStaticAnalyzers nDependAnalyzer = new FxCopAnalyzer("dir", new FakeUtilitiesStub());
 
-
+            nDependAnalyzer.AnalyzersData = new AnalyzersDataModel { ExePath = "", Name = "", OutputFilePath = "", RuleFilePath = "" };
+            Assert.IsFalse(nDependAnalyzer.ProcessInput());
         }
 
         [TestMethod]
-        public void Given_InputConfigurations_When_ProcessOutputIsCalled_Then_SuccessStatusIsTrue()
+        public void Given_UserFilePath_ANd_AnalyzerRuleFilePath_When_ProcessInput_Invoked_Then_ExpectedTo_Return_True()
         {
-            var xmlFilePath = @"C:\Users\320067256\PhilipsCaseStudy-2\TestInputExePaths.xml";
-            IStaticAnalyzerConfigurations configFilePath = new StaticAnalyzerXmlConfigurations(xmlFilePath);
-            bool expectedOutcome = new FxCopAnalyzer(configFilePath).ProcessOutput();
-            bool actualOutcome = true;
-            Assert.AreEqual(expectedOutcome, actualOutcome);
+            IStaticAnalyzers nDependAnalyzer = new FxCopAnalyzer("dir", new FakeUtilitiesStub());
 
-
+            nDependAnalyzer.AnalyzersData = new AnalyzersDataModel
+                { ExePath = "", Name = "", OutputFilePath = "", RuleFilePath = "ruleFile" };
+            Assert.IsTrue(nDependAnalyzer.ProcessInput());
         }
+
+
+
 
         [TestMethod]
-        public void Given_WrongFilePathConfigurations_When_ProcessInputIsCalled_Then_SuccessStatusIsFalse()
+        public void Given_AnalyzersData_When_ProcessOutput_Invoked_Then_Expected_True()
         {
-            var xmlFilePath = @"C:\Users\320067256\PhilipsCaseStudy-2\TestInputExePath.xml";
-            IStaticAnalyzerConfigurations configFilePath = new StaticAnalyzerXmlConfigurations(xmlFilePath);
-            bool expectedOutcome = new FxCopAnalyzer(configFilePath).ProcessInput();
-            bool actualOutcome = false;
-            Assert.AreEqual(expectedOutcome, actualOutcome);
-
-
+            IStaticAnalyzers nDependAnalyzer = new FxCopAnalyzer("", new FakeUtilitiesStub());
+            nDependAnalyzer.AnalyzersData = new AnalyzersDataModel { ExePath = "", Name = "", OutputFilePath = "", RuleFilePath = "" };
+            Assert.IsTrue(nDependAnalyzer.ProcessOutput());
         }
 
-        [TestMethod]
-        public void Given_WrongFilePathConfigurations_When_ProcessOutputIsCalled_Then_SuccessStatusIsFalse()
-        {
-            var xmlFilePath = @"C:\Users\320067256\PhilipsCaseStudy-2\TestInputExePath.xml";
-            IStaticAnalyzerConfigurations configFilePath = new StaticAnalyzerXmlConfigurations(xmlFilePath);
-            bool expectedOutcome = new FxCopAnalyzer(configFilePath).ProcessInput();
-            bool actualOutcome = false;
-            Assert.AreEqual(expectedOutcome, actualOutcome);
-
-
-        }
     }
 }

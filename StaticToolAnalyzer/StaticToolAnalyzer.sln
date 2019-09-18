@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyzerContractsLib", "StaticAnalyzerContractsLib\StaticAnalyzerContractsLib.csproj", "{565E5A7B-9BEB-4538-BDAC-D00E6ABABD8D}"
 EndProject
@@ -25,8 +25,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDependReaderLib", "NDepend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDependAnalyzerLib", "NDependAnalyzerLib\NDependAnalyzerLib.csproj", "{713EAB91-E849-4693-A814-F269FC05B08F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticToolAnalyzerApp", "StaticToolAnalyzerApp\StaticToolAnalyzerApp.csproj", "{7DA4BCC6-873D-46C2-BEEA-607CAC933FF1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzersDataLib", "AnalyzersDataLib\AnalyzersDataLib.csproj", "{72E4D843-15DD-4B10-91DB-84CCF3AF8140}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLoggerLib", "ConsoleLoggerLib\ConsoleLoggerLib.csproj", "{D6063CB7-5BA3-494C-91F5-2558B190D7A3}"
@@ -34,6 +32,22 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggersContractLib", "LoggersContractLib\LoggersContractLib.csproj", "{47C6039A-50B1-4AD2-8772-A7053CC6C2AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyzerUtilitiesContractsLib", "StaticAnalyzerUtilitiesContractsLib\StaticAnalyzerUtilitiesContractsLib.csproj", "{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDependAnalyzerLib.Tests", "NDependAnalyzerLib.Tests\NDependAnalyzerLib.Tests.csproj", "{6E41BE43-0355-4E79-8933-070AA368F8A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDependReaderLib.Tests", "NDependReaderLib.Tests\NDependReaderLib.Tests.csproj", "{F9432A3B-651B-46F4-8D04-798C1D5751B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCopAnalyzerLib.Tests", "FxCopAnalyzerLib.Tests\FxCopAnalyzerLib.Tests.csproj", "{FDC61BCC-F25B-4F14-B7F0-9B44C9374608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FxCopReaderLib.Tests", "FxCopReaderLib.Tests\FxCopReaderLib.Tests.csproj", "{29896C3E-C1DB-45FC-8011-D37310DA9354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextWriterLib.Tests", "TextWriterLib.Tests\TextWriterLib.Tests.csproj", "{97A91473-0EE6-4AFC-8136-C7035DB60712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAnalyzerUtilitiesLib.Tests", "StaticAnalyzerUtilitiesLib.Tests\StaticAnalyzerUtilitiesLib.Tests.csproj", "{5F148188-37B5-42C4-BE68-036DF917CF2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticToolsProcessorLib.Tests", "StaticToolsProcessorLib.Tests\StaticToolsProcessorLib.Tests.csproj", "{106F63AA-9860-4978-92AA-D2E5DC2594A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticToolAnalyzerApi", "StaticToolAnalyzerApi\StaticToolAnalyzerApi.csproj", "{EB10231F-4919-47A1-AD16-30E5A7831BB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,10 +99,6 @@ Global
 		{713EAB91-E849-4693-A814-F269FC05B08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713EAB91-E849-4693-A814-F269FC05B08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713EAB91-E849-4693-A814-F269FC05B08F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7DA4BCC6-873D-46C2-BEEA-607CAC933FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DA4BCC6-873D-46C2-BEEA-607CAC933FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DA4BCC6-873D-46C2-BEEA-607CAC933FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DA4BCC6-873D-46C2-BEEA-607CAC933FF1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72E4D843-15DD-4B10-91DB-84CCF3AF8140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72E4D843-15DD-4B10-91DB-84CCF3AF8140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E4D843-15DD-4B10-91DB-84CCF3AF8140}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,8 +115,43 @@ Global
 		{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D258B6AA-FB0C-4314-BF4C-808AE74DCA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E41BE43-0355-4E79-8933-070AA368F8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E41BE43-0355-4E79-8933-070AA368F8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E41BE43-0355-4E79-8933-070AA368F8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E41BE43-0355-4E79-8933-070AA368F8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9432A3B-651B-46F4-8D04-798C1D5751B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9432A3B-651B-46F4-8D04-798C1D5751B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9432A3B-651B-46F4-8D04-798C1D5751B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9432A3B-651B-46F4-8D04-798C1D5751B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC61BCC-F25B-4F14-B7F0-9B44C9374608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC61BCC-F25B-4F14-B7F0-9B44C9374608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC61BCC-F25B-4F14-B7F0-9B44C9374608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC61BCC-F25B-4F14-B7F0-9B44C9374608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29896C3E-C1DB-45FC-8011-D37310DA9354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29896C3E-C1DB-45FC-8011-D37310DA9354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29896C3E-C1DB-45FC-8011-D37310DA9354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29896C3E-C1DB-45FC-8011-D37310DA9354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A91473-0EE6-4AFC-8136-C7035DB60712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A91473-0EE6-4AFC-8136-C7035DB60712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A91473-0EE6-4AFC-8136-C7035DB60712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A91473-0EE6-4AFC-8136-C7035DB60712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F148188-37B5-42C4-BE68-036DF917CF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F148188-37B5-42C4-BE68-036DF917CF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F148188-37B5-42C4-BE68-036DF917CF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F148188-37B5-42C4-BE68-036DF917CF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106F63AA-9860-4978-92AA-D2E5DC2594A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106F63AA-9860-4978-92AA-D2E5DC2594A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106F63AA-9860-4978-92AA-D2E5DC2594A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106F63AA-9860-4978-92AA-D2E5DC2594A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB10231F-4919-47A1-AD16-30E5A7831BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB10231F-4919-47A1-AD16-30E5A7831BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB10231F-4919-47A1-AD16-30E5A7831BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB10231F-4919-47A1-AD16-30E5A7831BB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0741C26A-9DF9-4102-80B2-BBC309EDE063}
 	EndGlobalSection
 EndGlobal

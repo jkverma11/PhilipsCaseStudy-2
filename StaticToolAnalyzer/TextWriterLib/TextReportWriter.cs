@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using DataModelsLib;
 using System.IO;
-using LoggersContractLib;
 using System.Reflection;
 
 namespace TextWriterLib
@@ -11,51 +10,64 @@ namespace TextWriterLib
     public class TextReportWriter : WriterContractsLib.IReportWriter
     {
         #region ConstantFields
-        private readonly string _path = "AnalyzerReport.txt";
-        private ILogger _loggerRef;
+        private readonly string _path;
         #endregion
         
         #region Constructor
-        public TextReportWriter(string outPutFilePath,ILogger LoggerRef)
+        public TextReportWriter(string outPutFilePath)
         {
             if (outPutFilePath != null)
             {
                 _path = outPutFilePath;
             }
-
-            this._loggerRef = LoggerRef;
         }
         #endregion
 
         #region Method
         
             //List<string> text = new List<string>();
-            StringBuilder primaryStringBuilder = new StringBuilder();
-            StringBuilder secondaryStringBuilder = new StringBuilder();
-        
+            readonly StringBuilder _primaryStringBuilder = new StringBuilder();
+            readonly StringBuilder _secondaryStringBuilder = new StringBuilder();
+      
+        public bool Write(List<DataModel> dataModels)
+        {
+            int count = 0;
+            bool status = false;
+            if (CheckFileExistence())
+            {
+                WriteHeader(dataModels);
+                foreach (var dataModel in dataModels)
+                {
+                    Type type = dataModel.GetType();
+                    System.Reflection.PropertyInfo[] properties = type.GetProperties();
+                    GetPropertyValues(properties, dataModel);
+                    _primaryStringBuilder.AppendLine(_secondaryStringBuilder.ToString());
+                    _secondaryStringBuilder.Clear();
+                    count++;
+                }
+
+                File.AppendAllText(_path, _primaryStringBuilder.ToString());
+                _primaryStringBuilder.Clear();
+                status = CheckStatus(count, dataModels);
+            }
+            return status;
+        }
+
+        #endregion
+
+        #region PrivateMethods
+
         private bool CheckFileExistence()
         {
-            bool Status = false;
-            try
-            {
+            bool status = false;
                 if (!File.Exists(_path))
                 {
                     File.CreateText(_path).Close();
-                    Status = true;
-
+                    status = true;
                 }
-
                 if (File.Exists(_path))
-                    Status = true;
-
-            }
-
-            catch (Exception exception)
-            {
-                this._loggerRef.Write(exception);
-            }
-
-            return Status;
+                    status = true;
+            return status;
         }
 
         private bool WriteHeader(List<DataModel> dataModels)
@@ -68,57 +80,19 @@ namespace TextWriterLib
                 {
                     Type type = dataModels[0].GetType();
                     System.Reflection.PropertyInfo[] properties = type.GetProperties();
-                    //foreach (var property in properties)
-                    //{
-                    //    secondaryStringBuilder.Append(property.Name + "\t");
-                    //}
                     GetPropertyNames(properties);
-                    primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
-                    secondaryStringBuilder.Clear();
+                    _primaryStringBuilder.AppendLine(_secondaryStringBuilder.ToString());
+                    _secondaryStringBuilder.Clear();
                     status = true;
                 }
             }
             return status;
-
         }
-
-        public bool Write(List<DataModel> dataModels)
-        {
-            int count = 0;
-            bool status = false;
-            if (CheckFileExistence())
-            {
-                WriteHeader(dataModels);
-                foreach (var dataModel in dataModels)
-                {
-                    Type type = dataModel.GetType();
-                    System.Reflection.PropertyInfo[] properties = type.GetProperties();
-                    //foreach (var property in properties)
-                    //{
-                    //    secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
-                    //}
-                    GetPropertyValues(properties, dataModel);
-                    primaryStringBuilder.AppendLine(secondaryStringBuilder.ToString());
-                    secondaryStringBuilder.Clear();
-                    count++;
-                }
-
-                File.AppendAllText(_path, primaryStringBuilder.ToString());
-                primaryStringBuilder.Clear();
-                status = CheckStatus(count, dataModels);
-            }
-            return status;
-
-        }
-
-        #endregion
-
-        #region PrivateMethods
         private void GetPropertyValues(PropertyInfo[] properties, DataModel dataModel)
         {
             foreach (var property in properties)
             {
-                secondaryStringBuilder.Append(property.GetValue(dataModel) + "\t");
+                _secondaryStringBuilder.Append(property.GetValue(dataModel) + ",");
             }
         }
 
@@ -133,7 +107,7 @@ namespace TextWriterLib
         {
             foreach (var property in properties)
             {
-                secondaryStringBuilder.Append(property.Name + "\t");
+                _secondaryStringBuilder.Append(property.Name + ",");
             }
 
         }

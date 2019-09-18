@@ -15,7 +15,6 @@ C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\De
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerContractsLib.pdb
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesLib.pdb
-C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.csprojResolveAssemblyReference.cache
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.dll
 C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.pdb
 C:\Users\320050491\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\FxCopAnalyzerLib.dll
@@ -46,3 +45,10 @@ C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\De
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\LoggersContractLib.dll
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb
 C:\Users\320067256\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\StaticAnalyzerUtilitiesContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\bin\Debug\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopAnalyzerLib\obj\Debug\FxCopAnalyzerLib.csproj.CopyComplete

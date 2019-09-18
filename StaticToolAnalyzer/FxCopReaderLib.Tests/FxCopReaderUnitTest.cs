@@ -1,26 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using DataModelsLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FxCopReaderLib;
-using StaticAnalyzerConfigurationsContractsLib;
+using ReportReaderContractsLib;
 
 namespace FxCopReaderLib.Tests
 {
     [TestClass]
     public class FxCopReaderUnitTest
     {
-        [TestMethod]
-        public void Given_XmlFilewithOneIssueAsElement_When_ReadIsInvoked_Then_CountOfDataModelsListIsOne()
+        private IReader _fxCopReaderRef;
+        [TestInitialize]
+        public void Setup()
         {
-           // var xmlfilepath = @"C:\Users\320067256\PhilipsCaseStudy-2\TestInputExePaths.xml";
-            IStaticAnalyzerConfigurations readTestConfiguration=new FakeReadConfigurationStub();
-            var fxCopRead=new FxCopReaderLib.FxCopReader(readTestConfiguration);
-            System.Collections.Generic.List<DataModel> testDataModels = fxCopRead.Read();
-            int actualOutcome = testDataModels.Count;
-            int expectedOutcome = 1;
-            Assert.AreEqual(expectedOutcome,actualOutcome);
+            _fxCopReaderRef = new FxCopReader(new FakeLoggerStub());
+        }
+        [TestMethod]
+        public void Given_XmlFilePath_When_Invoked_Read_Expected_dataModelsList_Count_GreaterThan_Zero()
+        {
+            List<DataModel> dataModelsList = _fxCopReaderRef.Read(Directory.GetCurrentDirectory() + "\\..\\..\\..\\StaticToolAnalyzerApi\\App_Data\\AnalyzerTools\\FxCopReport.xml");
+            Assert.IsTrue(dataModelsList.Count > 0);
+        }
+
+        [TestMethod]
+        public void Given_WrongXmlPath_Read_Method_Invoked__Expected_dataModelsList_Count_IsZero()
+        {
+            List<DataModel> dataModelsList = _fxCopReaderRef.Read("");
+            Assert.IsTrue(dataModelsList.Count == 0);
         }
     }
 }

@@ -12,17 +12,16 @@ namespace FxCopReaderLib
         #region Fields
 
         private readonly List<DataModelsLib.DataModel> _dataModels = new List<DataModelsLib.DataModel>();
-        private ILogger _loggerRef;
-        private bool _validatorSuccessStatus=false;
+        private readonly ILogger _loggerRef;
 
         public string Name { get; } = "FxCop";
         
         #endregion
 
         #region Constructor
-        public FxCopReader(ILogger LoggerRef)
+        public FxCopReader(ILogger loggerRef)
         {
-            this._loggerRef = LoggerRef;
+            this._loggerRef = loggerRef;
         }
         #endregion
 

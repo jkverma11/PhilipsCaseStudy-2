@@ -12,7 +12,7 @@ namespace FxCopAnalyzerLib
     {
         #region Private Fields
         private readonly string _userFilePath;
-        private IStaticAnalyzerUtilities _staticAnalyzerUtilities;
+        private readonly IStaticAnalyzerUtilities _staticAnalyzerUtilities;
 
         public string AnalyzerName { get; } = "FxCop";
         public AnalyzersDataModel AnalyzersData { get; set; }
@@ -20,11 +20,11 @@ namespace FxCopAnalyzerLib
         #endregion
 
         #region Initialyzer
-        public FxCopAnalyzer(string userFilePath,IStaticAnalyzerUtilities StaticAnalyzerUtilities)
+        public FxCopAnalyzer(string userFilePath,IStaticAnalyzerUtilities staticAnalyzerUtilities)
         {
             
             _userFilePath = userFilePath;
-            this._staticAnalyzerUtilities = StaticAnalyzerUtilities;
+            this._staticAnalyzerUtilities = staticAnalyzerUtilities;
         }
         #endregion
 
