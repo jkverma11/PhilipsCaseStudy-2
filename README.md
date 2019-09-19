@@ -11,6 +11,6 @@ Run the AutoBuild.bat file.
 # Code Metrics
 Maximum Cyclometric Complexity per function : 3
 
-Code coverage: 98 %
+Code coverage: 96 %
 
 Code Duplication details available in the batch file.
