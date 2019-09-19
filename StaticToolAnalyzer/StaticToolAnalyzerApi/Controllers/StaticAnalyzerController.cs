@@ -30,7 +30,7 @@ namespace StaticToolAnalyzerApi.Controllers
     public class StaticAnalyzerController : ControllerBase
     {
         private readonly string _dataPath = Directory.GetCurrentDirectory() + "\\App_Data\\";
-        private readonly string _outputReportPath = Directory.GetCurrentDirectory()+ "\\App_Data\\AnalyzerOutput.txt";
+        private readonly string _outputReportPath = Directory.GetCurrentDirectory()+ "\\App_Data\\AnalyzerOutput.csv";
         private bool _successStatus=false;
 
        // GET api/values
