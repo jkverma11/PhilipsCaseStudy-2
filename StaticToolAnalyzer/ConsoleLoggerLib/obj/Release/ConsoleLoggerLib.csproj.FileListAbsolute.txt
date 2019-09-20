@@ -1,0 +1,11 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Release\ConsoleLoggerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Release\ConsoleLoggerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Release\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Release\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Release\ConsoleLoggerLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Release\ConsoleLoggerLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Release\ConsoleLoggerLib.csproj.CopyComplete
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Release\ConsoleLoggerLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\obj\Release\ConsoleLoggerLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Release\ConsoleLoggerLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\ConsoleLoggerLib\bin\Release\ConsoleLoggerLib.dll.lastcodeanalysissucceeded

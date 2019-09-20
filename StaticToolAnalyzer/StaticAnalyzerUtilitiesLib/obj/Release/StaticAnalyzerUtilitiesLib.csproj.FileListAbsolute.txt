@@ -1,0 +1,13 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\StaticAnalyzerUtilitiesLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\StaticAnalyzerUtilitiesLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\StaticAnalyzerUtilitiesContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\StaticAnalyzerUtilitiesContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Release\StaticAnalyzerUtilitiesLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Release\StaticAnalyzerUtilitiesLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Release\StaticAnalyzerUtilitiesLib.csproj.CopyComplete
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Release\StaticAnalyzerUtilitiesLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\obj\Release\StaticAnalyzerUtilitiesLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\StaticAnalyzerUtilitiesLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib\bin\Release\StaticAnalyzerUtilitiesLib.dll.lastcodeanalysissucceeded

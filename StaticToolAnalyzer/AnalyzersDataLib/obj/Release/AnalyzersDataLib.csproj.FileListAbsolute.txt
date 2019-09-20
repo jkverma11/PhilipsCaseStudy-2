@@ -1,0 +1,8 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\bin\Release\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\bin\Release\AnalyzersDataLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\obj\Release\AnalyzersDataLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\obj\Release\AnalyzersDataLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\obj\Release\AnalyzersDataLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\obj\Release\AnalyzersDataLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\bin\Release\AnalyzersDataLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\AnalyzersDataLib\bin\Release\AnalyzersDataLib.dll.lastcodeanalysissucceeded

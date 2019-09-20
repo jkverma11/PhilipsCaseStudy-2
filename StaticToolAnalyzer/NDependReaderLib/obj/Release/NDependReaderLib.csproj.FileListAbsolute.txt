@@ -1,0 +1,15 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\NDependReaderLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\NDependReaderLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\ReportReaderContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\DataModelsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\ReportReaderContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Release\NDependReaderLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Release\NDependReaderLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Release\NDependReaderLib.csproj.CopyComplete
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Release\NDependReaderLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\obj\Release\NDependReaderLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\NDependReaderLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\NDependReaderLib\bin\Release\NDependReaderLib.dll.lastcodeanalysissucceeded

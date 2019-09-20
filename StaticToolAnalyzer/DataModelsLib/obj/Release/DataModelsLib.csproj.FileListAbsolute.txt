@@ -1,0 +1,8 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\bin\Release\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\bin\Release\DataModelsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\obj\Release\DataModelsLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\obj\Release\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\obj\Release\DataModelsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\bin\Release\DataModelsLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\bin\Release\DataModelsLib.dll.lastcodeanalysissucceeded
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\DataModelsLib\obj\Release\DataModelsLib.csprojAssemblyReference.cache

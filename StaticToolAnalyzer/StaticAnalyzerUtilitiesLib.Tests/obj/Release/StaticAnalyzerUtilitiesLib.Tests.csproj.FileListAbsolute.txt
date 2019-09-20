@@ -1,0 +1,16 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesLib.Tests.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesLib.Tests.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\obj\Release\StaticAnalyzerUtilitiesLib.Tests.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\obj\Release\StaticAnalyzerUtilitiesLib.Tests.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\obj\Release\StaticAnalyzerUtilitiesLib.Tests.csproj.CopyComplete
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\obj\Release\StaticAnalyzerUtilitiesLib.Tests.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\obj\Release\StaticAnalyzerUtilitiesLib.Tests.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesLib.Tests.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\StaticAnalyzerUtilitiesLib.Tests\bin\Release\StaticAnalyzerUtilitiesLib.Tests.dll.lastcodeanalysissucceeded

@@ -34,6 +34,6 @@ set "SIM_PATH=D:\Softwares\Simian\Simian\bin\simian-2.5.10.exe"
 
 pause
 
-start "" https://localhost:44328/api/StaticAnalyzer
+start "" http://localhost:50256//api/StaticAnalyzer
 
 pause

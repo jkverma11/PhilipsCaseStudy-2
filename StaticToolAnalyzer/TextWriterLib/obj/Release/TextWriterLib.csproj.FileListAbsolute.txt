@@ -1,0 +1,13 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\TextWriterLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\TextWriterLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\WriterContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\DataModelsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\WriterContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\obj\Release\TextWriterLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\obj\Release\TextWriterLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\obj\Release\TextWriterLib.csproj.CopyComplete
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\obj\Release\TextWriterLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\obj\Release\TextWriterLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\TextWriterLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\TextWriterLib\bin\Release\TextWriterLib.dll.lastcodeanalysissucceeded

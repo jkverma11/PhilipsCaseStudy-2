@@ -31,7 +31,6 @@ namespace StaticToolAnalyzerApi.Controllers
     {
         private readonly string _dataPath = Directory.GetCurrentDirectory() + "\\App_Data\\";
         private readonly string _outputReportPath = Directory.GetCurrentDirectory()+ "\\App_Data\\AnalyzerOutput.csv";
-        private bool _successStatus=false;
 
        // GET api/values
         [HttpGet]
@@ -51,7 +50,6 @@ namespace StaticToolAnalyzerApi.Controllers
         [HttpPost]
         public void ExtractZipFile([FromBody] string zipFilePath)
         {
-            
             string extractedFilePath = zipFilePath.Substring(0, zipFilePath.IndexOf(".zip", StringComparison.Ordinal));
 
             if (System.IO.File.Exists(zipFilePath))
@@ -64,7 +62,7 @@ namespace StaticToolAnalyzerApi.Controllers
                 ZipFile.ExtractToDirectory(zipFilePath, extractedFilePath);
 
 
-                _successStatus = StaticAnalyzerProcessor(extractedFilePath, _dataPath);
+                 StaticAnalyzerProcessor(extractedFilePath, _dataPath);
             }
         }
 

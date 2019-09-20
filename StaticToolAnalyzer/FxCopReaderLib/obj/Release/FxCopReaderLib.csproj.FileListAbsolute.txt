@@ -1,0 +1,15 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\FxCopReaderLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\FxCopReaderLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\DataModelsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\ReportReaderContractsLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\DataModelsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\ReportReaderContractsLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Release\FxCopReaderLib.csprojAssemblyReference.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Release\FxCopReaderLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Release\FxCopReaderLib.csproj.CopyComplete
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Release\FxCopReaderLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\obj\Release\FxCopReaderLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\FxCopReaderLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\FxCopReaderLib\bin\Release\FxCopReaderLib.dll.lastcodeanalysissucceeded

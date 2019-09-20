@@ -1,0 +1,8 @@
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\Release\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\Release\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Release\LoggersContractLib.csproj.CoreCompileInputs.cache
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Release\LoggersContractLib.dll
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Release\LoggersContractLib.pdb
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\Release\LoggersContractLib.dll.CodeAnalysisLog.xml
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\bin\Release\LoggersContractLib.dll.lastcodeanalysissucceeded
+C:\Users\320050765\PhilipsCaseStudy-2\StaticToolAnalyzer\LoggersContractLib\obj\Release\LoggersContractLib.csprojAssemblyReference.cache
